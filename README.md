@@ -6,6 +6,37 @@
   </picture>
 </p>
 
+<details>
+  <summary>Past three calendar years</summary>
+
+  <p align="center">
+    <strong>2026</strong><br />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Choudhry18/Choudhry18/main/profile-3d-contrib/2026-night.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Choudhry18/Choudhry18/main/profile-3d-contrib/2026-day.svg" />
+      <img alt="github profile contributions chart for 2026" src="https://raw.githubusercontent.com/Choudhry18/Choudhry18/main/profile-3d-contrib/2026-day.svg" height="360" />
+    </picture>
+  </p>
+
+  <p align="center">
+    <strong>2025</strong><br />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Choudhry18/Choudhry18/main/profile-3d-contrib/2025-night.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Choudhry18/Choudhry18/main/profile-3d-contrib/2025-day.svg" />
+      <img alt="github profile contributions chart for 2025" src="https://raw.githubusercontent.com/Choudhry18/Choudhry18/main/profile-3d-contrib/2025-day.svg" height="360" />
+    </picture>
+  </p>
+
+  <p align="center">
+    <strong>2024</strong><br />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Choudhry18/Choudhry18/main/profile-3d-contrib/2024-night.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Choudhry18/Choudhry18/main/profile-3d-contrib/2024-day.svg" />
+      <img alt="github profile contributions chart for 2024" src="https://raw.githubusercontent.com/Choudhry18/Choudhry18/main/profile-3d-contrib/2024-day.svg" height="360" />
+    </picture>
+  </p>
+</details>
+
 Hi, I'm Abdullah. I build web apps, data projects, automation tools, and systems experiments. You can also find me on [my Trinity web page](https://cs.trinity.edu/~cabdulla/WebApps/).
 
 ### Projects

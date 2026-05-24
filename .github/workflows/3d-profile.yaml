@@ -12,19 +12,52 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      USERNAME: ${{ github.repository_owner }}
+      MAX_REPOS: 150
+      SETTING_JSON: ./default-profile-settings.json
+      EXCLUDED_LANGUAGES: HTML,SCSS,CSS
+      MAX_LANGUAGES: 6
+      LANGUAGE_COLORS: TypeScript:#3178C6,JavaScript:#F7DF1E,Python:#FFD43B,Rust:#CE422B,Jupyter Notebook:#F37626,Java:#ED8B00,Haskell:#5E5086,C:#A8B9CC,C++:#00599C,Scala:#DC322F
     steps:
       - uses: actions/checkout@v5
 
-      - name: generate 3d profile contrib
+      - name: generate 2024 profile contrib
         uses: johnlarkin1/github-profile-3d-contrib@main
         env:
-          GITHUB_TOKEN: ${{ github.token }}
-          USERNAME: ${{ github.repository_owner }}
-          MAX_REPOS: 150
-          SETTING_JSON: ./default-profile-settings.json
-          EXCLUDED_LANGUAGES: HTML,SCSS,CSS
-          MAX_LANGUAGES: 6
-          LANGUAGE_COLORS: TypeScript:#3178C6,JavaScript:#F7DF1E,Python:#FFD43B,Rust:#CE422B,Jupyter Notebook:#F37626,Java:#ED8B00,Haskell:#5E5086,C:#A8B9CC,C++:#00599C,Scala:#DC322F
+          YEAR: 2024
+
+      - name: keep 2024 profile output
+        run: |
+          mv profile-3d-contrib/day.svg profile-3d-contrib/2024-day.svg
+          mv profile-3d-contrib/night.svg profile-3d-contrib/2024-night.svg
+          mv profile-3d-contrib/language-report.md profile-3d-contrib/language-report-2024.md
+
+      - name: generate 2025 profile contrib
+        uses: johnlarkin1/github-profile-3d-contrib@main
+        env:
+          YEAR: 2025
+
+      - name: keep 2025 profile output
+        run: |
+          mv profile-3d-contrib/day.svg profile-3d-contrib/2025-day.svg
+          mv profile-3d-contrib/night.svg profile-3d-contrib/2025-night.svg
+          mv profile-3d-contrib/language-report.md profile-3d-contrib/language-report-2025.md
+
+      - name: generate 2026 profile contrib
+        uses: johnlarkin1/github-profile-3d-contrib@main
+        env:
+          YEAR: 2026
+
+      - name: keep 2026 profile output
+        run: |
+          mv profile-3d-contrib/day.svg profile-3d-contrib/2026-day.svg
+          mv profile-3d-contrib/night.svg profile-3d-contrib/2026-night.svg
+          mv profile-3d-contrib/language-report.md profile-3d-contrib/language-report-2026.md
+
+      - name: generate 3d profile contrib
+        uses: johnlarkin1/github-profile-3d-contrib@main
 
       - name: commit and push changes
         run: |
