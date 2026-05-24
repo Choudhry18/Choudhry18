@@ -1,0 +1,35 @@
+name: update profile
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: generate 3d profile contrib
+        uses: johnlarkin1/github-profile-3d-contrib@main
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          USERNAME: ${{ github.repository_owner }}
+          MAX_REPOS: 150
+          SETTING_JSON: ./default-profile-settings.json
+          EXCLUDED_LANGUAGES: HTML,SCSS,CSS
+          MAX_LANGUAGES: 6
+          LANGUAGE_COLORS: TypeScript:#3178C6,JavaScript:#F7DF1E,Python:#FFD43B,Rust:#CE422B,Jupyter Notebook:#F37626,Java:#ED8B00,Haskell:#5E5086,C:#A8B9CC,C++:#00599C,Scala:#DC322F
+
+      - name: commit and push changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add profile-3d-contrib/
+          git diff --staged --quiet || git commit -m "update 3d profile contrib"
+          git push
