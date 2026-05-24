@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-05-24T02:05:57.315Z
+Generated: 2026-05-24T07:52:12.041Z
 
 - **Repos analyzed:** 24
 - **Repos skipped** (no language data or all excluded): 3
@@ -21,8 +21,8 @@ Generated: 2026-05-24T02:05:57.315Z
 | 9 | Rust | 5.79 | 2.2% | 3 |
 | 10 | Lex | 4.99 | 1.9% | 1 |
 | 11 | Java | 2 | 0.8% | 1 |
-| 12 | Shell | 1.70 | 0.7% | 6 |
-| 13 | C++ | 1.00 | 0.4% | 2 |
+| 12 | Shell | 1.69 | 0.7% | 6 |
+| 13 | C++ | 1.01 | 0.4% | 2 |
 | 14 | TypeScript | 1 | 0.4% | 1 |
 | 15 | Ruby | 0.69 | 0.3% | 1 |
 | 16 | Makefile | 0.36 | 0.1% | 4 |
@@ -141,7 +141,7 @@ Generated: 2026-05-24T02:05:57.315Z
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | Choudhry18/SpiderBot | 1 | 25.8 KB |
-| dora-rs/dora | 0.00 | 7.9 KB |
+| dora-rs/dora | 0.01 | 8.2 KB |
 
 ### TypeScript — 0.4%
 
@@ -348,7 +348,7 @@ Generated: 2026-05-24T02:05:57.315Z
 | Rust | 3.0 MB | 92.3% | 1.85 |
 | C | 17.7 KB | 0.5% | 0.01 |
 | Python | 117.7 KB | 3.6% | 0.07 |
-| C++ | 7.9 KB | 0.2% | 0.00 |
+| C++ | 8.2 KB | 0.3% | 0.01 |
 | Shell | 101.6 KB | 3.1% | 0.06 |
 | PowerShell | 1.4 KB | 0.0% | 0.00 |
 | Nix | 1.4 KB | 0.0% | 0.00 |
