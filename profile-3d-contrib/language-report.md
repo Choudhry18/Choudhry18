@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-06-01T10:28:36.079Z
+Generated: 2026-06-02T09:16:09.256Z
 
 - **Repos analyzed:** 25
 - **Repos skipped** (no language data or all excluded): 3
@@ -22,7 +22,7 @@ Generated: 2026-06-01T10:28:36.079Z
 | 10 | Lex | 4.99 | 1.9% | 1 |
 | 11 | TypeScript | 2.99 | 1.1% | 2 |
 | 12 | Java | 2 | 0.8% | 1 |
-| 13 | Shell | 1.70 | 0.6% | 6 |
+| 13 | Shell | 1.70 | 0.7% | 6 |
 | 14 | C++ | 1.00 | 0.4% | 2 |
 | 15 | Ruby | 0.69 | 0.3% | 1 |
 | 16 | Makefile | 0.36 | 0.1% | 4 |
@@ -59,7 +59,7 @@ Generated: 2026-06-01T10:28:36.079Z
 | Choudhry18/Calendar_Schedular | 1.49 | 6.2 KB |
 | gperezs/StarcNet | 0.10 | 27.3 KB |
 | dora-rs/dora | 0.07 | 127.0 KB |
-| astral-sh/uv | 0.05 | 309.7 KB |
+| astral-sh/uv | 0.05 | 311.1 KB |
 
 ### Jupyter Notebook — 14.2%
 
@@ -133,14 +133,14 @@ Generated: 2026-06-01T10:28:36.079Z
 |------|----------------------|-------|
 | Choudhry18/Assignment-1 | 2 | 3.5 KB |
 
-### Shell — 0.6%
+### Shell — 0.7%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | 3dMVP/homebrew-tap | 1.31 | 1.8 KB |
 | Choudhry18/StarClustering | 0.24 | 2.6 KB |
 | Choudhry18/British | 0.07 | 62 B |
-| dora-rs/dora | 0.06 | 107.5 KB |
+| dora-rs/dora | 0.06 | 109.7 KB |
 | gperezs/StarcNet | 0.00 | 1.3 KB |
 | astral-sh/uv | 0.00 | 27.8 KB |
 
@@ -209,7 +209,7 @@ Generated: 2026-06-01T10:28:36.079Z
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
-| astral-sh/uv | 0.00 | 3.7 KB |
+| astral-sh/uv | 0.00 | 3.9 KB |
 
 ### RenderScript — 0.0%
 
@@ -315,9 +315,9 @@ Generated: 2026-06-01T10:28:36.079Z
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
 | Rust | 17.6 MB | 98.0% | 2.94 |
-| Python | 309.7 KB | 1.7% | 0.05 |
+| Python | 311.1 KB | 1.7% | 0.05 |
 | Shell | 27.8 KB | 0.2% | 0.00 |
-| Nushell | 3.7 KB | 0.0% | 0.00 |
+| Nushell | 3.9 KB | 0.0% | 0.00 |
 | PowerShell | 2.8 KB | 0.0% | 0.00 |
 | Dockerfile | 5.1 KB | 0.0% | 0.00 |
 | Jupyter Notebook | 2.1 KB | 0.0% | 0.00 |
@@ -351,7 +351,7 @@ Generated: 2026-06-01T10:28:36.079Z
 | C | 17.7 KB | 0.5% | 0.01 |
 | Python | 127.0 KB | 3.7% | 0.07 |
 | C++ | 8.2 KB | 0.2% | 0.00 |
-| Shell | 107.5 KB | 3.1% | 0.06 |
+| Shell | 109.7 KB | 3.2% | 0.06 |
 | PowerShell | 1.4 KB | 0.0% | 0.00 |
 | Nix | 1.4 KB | 0.0% | 0.00 |
 | Dockerfile | 3.7 KB | 0.1% | 0.00 |
