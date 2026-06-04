@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-06-03T10:01:02.493Z
+Generated: 2026-06-04T08:56:19.873Z
 
 - **Repos analyzed:** 25
 - **Repos skipped** (no language data or all excluded): 3
@@ -18,7 +18,7 @@ Generated: 2026-06-03T10:01:02.493Z
 | 6 | EJS | 17.31 | 6.6% | 1 |
 | 7 | C | 13.01 | 5.0% | 4 |
 | 8 | Yacc | 6.03 | 2.3% | 1 |
-| 9 | Rust | 5.78 | 2.2% | 3 |
+| 9 | Rust | 5.77 | 2.2% | 3 |
 | 10 | Lex | 4.99 | 1.9% | 1 |
 | 11 | TypeScript | 2.99 | 1.1% | 2 |
 | 12 | Java | 2 | 0.8% | 1 |
@@ -110,7 +110,7 @@ Generated: 2026-06-03T10:01:02.493Z
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
-| astral-sh/uv | 2.94 | 17.7 MB |
+| astral-sh/uv | 2.94 | 17.4 MB |
 | dora-rs/dora | 1.83 | 3.1 MB |
 | Choudhry18/wise-api | 1 | 6.7 KB |
 
@@ -139,7 +139,7 @@ Generated: 2026-06-03T10:01:02.493Z
 |------|----------------------|-------|
 | 3dMVP/homebrew-tap | 1.31 | 1.8 KB |
 | Choudhry18/StarClustering | 0.24 | 2.6 KB |
-| dora-rs/dora | 0.07 | 128.5 KB |
+| dora-rs/dora | 0.08 | 137.9 KB |
 | Choudhry18/British | 0.07 | 62 B |
 | gperezs/StarcNet | 0.00 | 1.3 KB |
 | astral-sh/uv | 0.00 | 26.4 KB |
@@ -308,7 +308,7 @@ Generated: 2026-06-03T10:01:02.493Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 17.7 MB | 98.1% | 2.94 |
+| Rust | 17.4 MB | 98.1% | 2.94 |
 | Python | 299.8 KB | 1.6% | 0.05 |
 | Shell | 26.4 KB | 0.1% | 0.00 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
@@ -341,11 +341,11 @@ Generated: 2026-06-03T10:01:02.493Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 3.1 MB | 91.6% | 1.83 |
+| Rust | 3.1 MB | 91.4% | 1.83 |
 | C | 17.7 KB | 0.5% | 0.01 |
 | Python | 127.0 KB | 3.6% | 0.07 |
 | C++ | 8.2 KB | 0.2% | 0.00 |
-| Shell | 128.5 KB | 3.7% | 0.07 |
+| Shell | 137.9 KB | 3.9% | 0.08 |
 | PowerShell | 1.4 KB | 0.0% | 0.00 |
 | Nix | 1.4 KB | 0.0% | 0.00 |
 | Dockerfile | 3.7 KB | 0.1% | 0.00 |
