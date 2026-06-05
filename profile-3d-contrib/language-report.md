@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-06-04T08:56:19.873Z
+Generated: 2026-06-05T08:49:21.557Z
 
 - **Repos analyzed:** 25
 - **Repos skipped** (no language data or all excluded): 3
@@ -110,8 +110,8 @@ Generated: 2026-06-04T08:56:19.873Z
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
-| astral-sh/uv | 2.94 | 17.4 MB |
-| dora-rs/dora | 1.83 | 3.1 MB |
+| astral-sh/uv | 2.94 | 17.5 MB |
+| dora-rs/dora | 1.83 | 3.2 MB |
 | Choudhry18/wise-api | 1 | 6.7 KB |
 
 ### Lex — 1.9%
@@ -139,7 +139,7 @@ Generated: 2026-06-04T08:56:19.873Z
 |------|----------------------|-------|
 | 3dMVP/homebrew-tap | 1.31 | 1.8 KB |
 | Choudhry18/StarClustering | 0.24 | 2.6 KB |
-| dora-rs/dora | 0.08 | 137.9 KB |
+| dora-rs/dora | 0.08 | 139.7 KB |
 | Choudhry18/British | 0.07 | 62 B |
 | gperezs/StarcNet | 0.00 | 1.3 KB |
 | astral-sh/uv | 0.00 | 26.4 KB |
@@ -308,7 +308,7 @@ Generated: 2026-06-04T08:56:19.873Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 17.4 MB | 98.1% | 2.94 |
+| Rust | 17.5 MB | 98.1% | 2.94 |
 | Python | 299.8 KB | 1.6% | 0.05 |
 | Shell | 26.4 KB | 0.1% | 0.00 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
@@ -341,11 +341,11 @@ Generated: 2026-06-04T08:56:19.873Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 3.1 MB | 91.4% | 1.83 |
+| Rust | 3.2 MB | 91.4% | 1.83 |
 | C | 17.7 KB | 0.5% | 0.01 |
 | Python | 127.0 KB | 3.6% | 0.07 |
 | C++ | 8.2 KB | 0.2% | 0.00 |
-| Shell | 137.9 KB | 3.9% | 0.08 |
+| Shell | 139.7 KB | 3.9% | 0.08 |
 | PowerShell | 1.4 KB | 0.0% | 0.00 |
 | Nix | 1.4 KB | 0.0% | 0.00 |
 | Dockerfile | 3.7 KB | 0.1% | 0.00 |
