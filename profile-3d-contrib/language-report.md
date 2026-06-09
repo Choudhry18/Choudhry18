@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-06-08T09:51:53.030Z
+Generated: 2026-06-09T08:37:18.311Z
 
 - **Repos analyzed:** 25
 - **Repos skipped** (no language data or all excluded): 3
@@ -142,7 +142,7 @@ Generated: 2026-06-08T09:51:53.030Z
 | dora-rs/dora | 0.08 | 152.0 KB |
 | Choudhry18/British | 0.07 | 62 B |
 | gperezs/StarcNet | 0.00 | 1.3 KB |
-| astral-sh/uv | 0.00 | 26.4 KB |
+| astral-sh/uv | 0.00 | 26.6 KB |
 
 ### C++ — 0.4%
 
@@ -310,7 +310,7 @@ Generated: 2026-06-08T09:51:53.030Z
 |----------|-------|-----------|----------------------|
 | Rust | 17.6 MB | 98.1% | 2.94 |
 | Python | 299.6 KB | 1.6% | 0.05 |
-| Shell | 26.4 KB | 0.1% | 0.00 |
+| Shell | 26.6 KB | 0.1% | 0.00 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
 | PowerShell | 2.8 KB | 0.0% | 0.00 |
 | Dockerfile | 5.1 KB | 0.0% | 0.00 |
