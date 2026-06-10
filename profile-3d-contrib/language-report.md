@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-06-09T08:37:18.311Z
+Generated: 2026-06-10T08:56:54.943Z
 
 - **Repos analyzed:** 25
 - **Repos skipped** (no language data or all excluded): 3
@@ -22,7 +22,7 @@ Generated: 2026-06-09T08:37:18.311Z
 | 10 | Lex | 4.99 | 1.9% | 1 |
 | 11 | TypeScript | 2.99 | 1.1% | 2 |
 | 12 | Java | 2 | 0.8% | 1 |
-| 13 | Shell | 1.72 | 0.7% | 6 |
+| 13 | Shell | 1.71 | 0.7% | 6 |
 | 14 | C++ | 1.00 | 0.4% | 2 |
 | 15 | Ruby | 0.69 | 0.3% | 1 |
 | 16 | Makefile | 0.36 | 0.1% | 4 |
@@ -58,7 +58,7 @@ Generated: 2026-06-09T08:37:18.311Z
 | Choudhry18/Calendar_Schedular | 1.49 | 6.2 KB |
 | gperezs/StarcNet | 0.10 | 27.3 KB |
 | dora-rs/dora | 0.07 | 127.0 KB |
-| astral-sh/uv | 0.05 | 299.6 KB |
+| astral-sh/uv | 0.05 | 301.0 KB |
 
 ### Jupyter Notebook — 14.2%
 
@@ -309,7 +309,7 @@ Generated: 2026-06-09T08:37:18.311Z
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
 | Rust | 17.6 MB | 98.1% | 2.94 |
-| Python | 299.6 KB | 1.6% | 0.05 |
+| Python | 301.0 KB | 1.6% | 0.05 |
 | Shell | 26.6 KB | 0.1% | 0.00 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
 | PowerShell | 2.8 KB | 0.0% | 0.00 |
