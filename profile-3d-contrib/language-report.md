@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-06-10T08:56:54.943Z
+Generated: 2026-06-11T09:17:52.032Z
 
 - **Repos analyzed:** 25
 - **Repos skipped** (no language data or all excluded): 3
@@ -58,7 +58,7 @@ Generated: 2026-06-10T08:56:54.943Z
 | Choudhry18/Calendar_Schedular | 1.49 | 6.2 KB |
 | gperezs/StarcNet | 0.10 | 27.3 KB |
 | dora-rs/dora | 0.07 | 127.0 KB |
-| astral-sh/uv | 0.05 | 301.0 KB |
+| astral-sh/uv | 0.05 | 301.2 KB |
 
 ### Jupyter Notebook — 14.2%
 
@@ -309,7 +309,7 @@ Generated: 2026-06-10T08:56:54.943Z
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
 | Rust | 17.6 MB | 98.1% | 2.94 |
-| Python | 301.0 KB | 1.6% | 0.05 |
+| Python | 301.2 KB | 1.6% | 0.05 |
 | Shell | 26.6 KB | 0.1% | 0.00 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
 | PowerShell | 2.8 KB | 0.0% | 0.00 |
@@ -341,7 +341,7 @@ Generated: 2026-06-10T08:56:54.943Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 3.3 MB | 91.4% | 1.83 |
+| Rust | 3.3 MB | 91.5% | 1.83 |
 | C | 17.7 KB | 0.5% | 0.01 |
 | Python | 127.0 KB | 3.4% | 0.07 |
 | C++ | 8.2 KB | 0.2% | 0.00 |
