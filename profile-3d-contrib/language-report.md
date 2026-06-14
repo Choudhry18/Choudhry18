@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-06-13T08:28:33.575Z
+Generated: 2026-06-14T08:44:57.414Z
 
 - **Repos analyzed:** 25
 - **Repos skipped** (no language data or all excluded): 3
@@ -18,7 +18,7 @@ Generated: 2026-06-13T08:28:33.575Z
 | 6 | EJS | 17.31 | 6.6% | 1 |
 | 7 | C | 13.01 | 5.0% | 4 |
 | 8 | Yacc | 6.03 | 2.3% | 1 |
-| 9 | Rust | 5.77 | 2.2% | 3 |
+| 9 | Rust | 5.78 | 2.2% | 3 |
 | 10 | Lex | 4.99 | 1.9% | 1 |
 | 11 | TypeScript | 2.99 | 1.1% | 2 |
 | 12 | Java | 2 | 0.8% | 1 |
