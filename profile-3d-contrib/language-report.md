@@ -1,9 +1,9 @@
 # Language Distribution Report
 
-Generated: 2026-06-23T08:33:36.544Z
+Generated: 2026-06-24T08:29:20.428Z
 
 - **Repos analyzed:** 25
-- **Repos skipped** (no language data or all excluded): 3
+- **Repos skipped** (no language data or all excluded): 4
 - **Excluded languages:** html, scss, css
 
 ## Language Summary (Weighted by Commits)
@@ -22,9 +22,9 @@ Generated: 2026-06-23T08:33:36.544Z
 | 10 | Lex | 4.99 | 1.9% | 1 |
 | 11 | TypeScript | 2.99 | 1.1% | 2 |
 | 12 | Java | 2 | 0.8% | 1 |
-| 13 | Shell | 1.71 | 0.7% | 6 |
+| 13 | Shell | 1.56 | 0.6% | 6 |
 | 14 | C++ | 1.00 | 0.4% | 2 |
-| 15 | Ruby | 0.69 | 0.3% | 1 |
+| 15 | Ruby | 0.84 | 0.3% | 1 |
 | 16 | Makefile | 0.36 | 0.1% | 4 |
 | 17 | Procfile | 0.03 | 0.0% | 2 |
 | 18 | Dockerfile | 0.00 | 0.0% | 2 |
@@ -133,11 +133,11 @@ Generated: 2026-06-23T08:33:36.544Z
 |------|----------------------|-------|
 | Choudhry18/Assignment-1 | 2 | 3.5 KB |
 
-### Shell — 0.7%
+### Shell — 0.6%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
-| 3dMVP/homebrew-tap | 1.31 | 1.8 KB |
+| 3dMVP/homebrew-tap | 1.16 | 1.8 KB |
 | Choudhry18/StarClustering | 0.24 | 2.6 KB |
 | dora-rs/dora | 0.07 | 159.8 KB |
 | Choudhry18/British | 0.07 | 62 B |
@@ -155,7 +155,7 @@ Generated: 2026-06-23T08:33:36.544Z
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
-| 3dMVP/homebrew-tap | 0.69 | 970 B |
+| 3dMVP/homebrew-tap | 0.84 | 1.3 KB |
 
 ### Makefile — 0.1%
 
@@ -362,8 +362,8 @@ Generated: 2026-06-23T08:33:36.544Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Ruby | 970 B | 34.4% | 0.69 |
-| Shell | 1.8 KB | 65.6% | 1.31 |
+| Ruby | 1.3 KB | 41.9% | 0.84 |
+| Shell | 1.8 KB | 58.1% | 1.16 |
 
 ### gperezs/StarcNet — 1 commits
 
