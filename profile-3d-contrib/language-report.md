@@ -1,24 +1,24 @@
 # Language Distribution Report
 
-Generated: 2026-06-24T08:29:20.428Z
+Generated: 2026-06-25T08:28:25.246Z
 
-- **Repos analyzed:** 25
-- **Repos skipped** (no language data or all excluded): 4
+- **Repos analyzed:** 26
+- **Repos skipped** (no language data or all excluded): 5
 - **Excluded languages:** html, scss, css
 
 ## Language Summary (Weighted by Commits)
 
 | Rank | Language | Weighted Contributions | % | # Repos |
 |------|----------|----------------------|---|---------|
-| 1 | JavaScript | 71.38 | 27.3% | 6 |
+| 1 | JavaScript | 71.38 | 27.2% | 6 |
 | 2 | Python | 38.39 | 14.7% | 8 |
-| 3 | Jupyter Notebook | 37.06 | 14.2% | 5 |
-| 4 | Scala | 29.69 | 11.4% | 2 |
+| 3 | Jupyter Notebook | 37.06 | 14.1% | 5 |
+| 4 | Scala | 29.69 | 11.3% | 2 |
 | 5 | Haskell | 28.56 | 10.9% | 3 |
 | 6 | EJS | 17.31 | 6.6% | 1 |
 | 7 | C | 13.01 | 5.0% | 4 |
-| 8 | Yacc | 6.03 | 2.3% | 1 |
-| 9 | Rust | 5.79 | 2.2% | 3 |
+| 8 | Rust | 6.79 | 2.6% | 4 |
+| 9 | Yacc | 6.03 | 2.3% | 1 |
 | 10 | Lex | 4.99 | 1.9% | 1 |
 | 11 | TypeScript | 2.99 | 1.1% | 2 |
 | 12 | Java | 2 | 0.8% | 1 |
@@ -36,7 +36,7 @@ Generated: 2026-06-24T08:29:20.428Z
 
 ## Per-Language Breakdown (Top Repos)
 
-### JavaScript — 27.3%
+### JavaScript — 27.2%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
@@ -60,7 +60,7 @@ Generated: 2026-06-24T08:29:20.428Z
 | dora-rs/dora | 0.06 | 135.8 KB |
 | astral-sh/uv | 0.05 | 301.2 KB |
 
-### Jupyter Notebook — 14.2%
+### Jupyter Notebook — 14.1%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
@@ -70,7 +70,7 @@ Generated: 2026-06-24T08:29:20.428Z
 | gperezs/StarcNet | 0.89 | 240.9 KB |
 | astral-sh/uv | 0.00 | 2.1 KB |
 
-### Scala — 11.4%
+### Scala — 11.3%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
@@ -100,19 +100,20 @@ Generated: 2026-06-24T08:29:20.428Z
 | dora-rs/dora | 0.01 | 17.7 KB |
 | astral-sh/uv | 0.00 | 320 B |
 
+### Rust — 2.6%
+
+| Repo | Weighted Contributions | Bytes |
+|------|----------------------|-------|
+| astral-sh/uv | 2.94 | 17.9 MB |
+| dora-rs/dora | 1.84 | 3.9 MB |
+| Choudhry18/rasterizer | 1 | 15.0 KB |
+| Choudhry18/wise-api | 1 | 6.7 KB |
+
 ### Yacc — 2.3%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | Choudhry18/British | 6.03 | 5.3 KB |
-
-### Rust — 2.2%
-
-| Repo | Weighted Contributions | Bytes |
-|------|----------------------|-------|
-| astral-sh/uv | 2.94 | 17.8 MB |
-| dora-rs/dora | 1.84 | 3.9 MB |
-| Choudhry18/wise-api | 1 | 6.7 KB |
 
 ### Lex — 1.9%
 
@@ -308,7 +309,7 @@ Generated: 2026-06-24T08:29:20.428Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 17.8 MB | 98.1% | 2.94 |
+| Rust | 17.9 MB | 98.1% | 2.94 |
 | Python | 301.2 KB | 1.6% | 0.05 |
 | Shell | 26.6 KB | 0.1% | 0.00 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
@@ -385,6 +386,12 @@ Generated: 2026-06-24T08:29:20.428Z
 |----------|-------|-----------|----------------------|
 | Haskell | 46.8 KB | 99.2% | 0.99 |
 | Makefile | 382 B | 0.8% | 0.01 |
+
+### Choudhry18/rasterizer — 1 commits
+
+| Language | Bytes | % of Repo | Weighted Contributions |
+|----------|-------|-----------|----------------------|
+| Rust | 15.0 KB | 100.0% | 1 |
 
 ### Choudhry18/mmiInterview — 1 commits
 
