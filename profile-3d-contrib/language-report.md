@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-06-25T08:28:25.246Z
+Generated: 2026-06-26T08:33:54.880Z
 
 - **Repos analyzed:** 26
 - **Repos skipped** (no language data or all excluded): 5
@@ -104,7 +104,7 @@ Generated: 2026-06-25T08:28:25.246Z
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
-| astral-sh/uv | 2.94 | 17.9 MB |
+| astral-sh/uv | 2.94 | 18.0 MB |
 | dora-rs/dora | 1.84 | 3.9 MB |
 | Choudhry18/rasterizer | 1 | 15.0 KB |
 | Choudhry18/wise-api | 1 | 6.7 KB |
@@ -138,9 +138,9 @@ Generated: 2026-06-25T08:28:25.246Z
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
-| 3dMVP/homebrew-tap | 1.16 | 1.8 KB |
+| Blobit-AI/homebrew-tap | 1.16 | 1.8 KB |
 | Choudhry18/StarClustering | 0.24 | 2.6 KB |
-| dora-rs/dora | 0.07 | 159.8 KB |
+| dora-rs/dora | 0.07 | 160.3 KB |
 | Choudhry18/British | 0.07 | 62 B |
 | gperezs/StarcNet | 0.00 | 1.3 KB |
 | astral-sh/uv | 0.00 | 26.6 KB |
@@ -156,7 +156,7 @@ Generated: 2026-06-25T08:28:25.246Z
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
-| 3dMVP/homebrew-tap | 0.84 | 1.3 KB |
+| Blobit-AI/homebrew-tap | 0.84 | 1.3 KB |
 
 ### Makefile — 0.1%
 
@@ -309,7 +309,7 @@ Generated: 2026-06-25T08:28:25.246Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 17.9 MB | 98.1% | 2.94 |
+| Rust | 18.0 MB | 98.1% | 2.94 |
 | Python | 301.2 KB | 1.6% | 0.05 |
 | Shell | 26.6 KB | 0.1% | 0.00 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
@@ -344,9 +344,9 @@ Generated: 2026-06-25T08:28:25.246Z
 |----------|-------|-----------|----------------------|
 | Rust | 3.9 MB | 92.2% | 1.84 |
 | C | 17.7 KB | 0.4% | 0.01 |
-| Python | 135.8 KB | 3.2% | 0.06 |
+| Python | 135.8 KB | 3.1% | 0.06 |
 | C++ | 8.2 KB | 0.2% | 0.00 |
-| Shell | 159.8 KB | 3.7% | 0.07 |
+| Shell | 160.3 KB | 3.7% | 0.07 |
 | PowerShell | 1.4 KB | 0.0% | 0.00 |
 | Nix | 1.4 KB | 0.0% | 0.00 |
 | Dockerfile | 3.7 KB | 0.1% | 0.00 |
@@ -359,7 +359,7 @@ Generated: 2026-06-25T08:28:25.246Z
 | TypeScript | 127.9 KB | 99.5% | 1.99 |
 | JavaScript | 660 B | 0.5% | 0.01 |
 
-### 3dMVP/homebrew-tap — 2 commits
+### Blobit-AI/homebrew-tap — 2 commits
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
