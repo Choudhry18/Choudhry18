@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-06-29T09:54:52.999Z
+Generated: 2026-06-30T08:34:15.213Z
 
 - **Repos analyzed:** 26
 - **Repos skipped** (no language data or all excluded): 5
@@ -106,7 +106,7 @@ Generated: 2026-06-29T09:54:52.999Z
 |------|----------------------|-------|
 | astral-sh/uv | 2.94 | 18.1 MB |
 | dora-rs/dora | 1.85 | 3.9 MB |
-| Choudhry18/rasterizer | 1 | 15.0 KB |
+| Choudhry18/rasterizer | 1 | 23.3 KB |
 | Choudhry18/wise-api | 1 | 6.7 KB |
 
 ### Yacc — 2.3%
@@ -165,7 +165,7 @@ Generated: 2026-06-29T09:54:52.999Z
 | Choudhry18/British | 0.23 | 212 B |
 | TU-CSCI2322-FL23/solver-dots-and-booxes | 0.11 | 248 B |
 | Choudhry18/Digit_Recognition | 0.01 | 382 B |
-| dora-rs/dora | 0.00 | 6.9 KB |
+| dora-rs/dora | 0.00 | 7.3 KB |
 
 ### Procfile — 0.0%
 
@@ -357,7 +357,7 @@ Generated: 2026-06-29T09:54:52.999Z
 | PowerShell | 1.4 KB | 0.0% | 0.00 |
 | Nix | 1.4 KB | 0.0% | 0.00 |
 | Dockerfile | 3.7 KB | 0.1% | 0.00 |
-| Makefile | 6.9 KB | 0.2% | 0.00 |
+| Makefile | 7.3 KB | 0.2% | 0.00 |
 
 ### Choudhry18/job_portal — 2 commits
 
@@ -391,7 +391,7 @@ Generated: 2026-06-29T09:54:52.999Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 15.0 KB | 100.0% | 1 |
+| Rust | 23.3 KB | 100.0% | 1 |
 
 ### Choudhry18/mmiInterview — 1 commits
 
