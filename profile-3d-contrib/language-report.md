@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-07-08T07:35:52.350Z
+Generated: 2026-07-09T08:34:08.648Z
 
 - **Repos analyzed:** 26
 - **Repos skipped** (no language data or all excluded): 5
@@ -11,13 +11,13 @@ Generated: 2026-07-08T07:35:52.350Z
 | Rank | Language | Weighted Contributions | % | # Repos |
 |------|----------|----------------------|---|---------|
 | 1 | JavaScript | 71.38 | 27.0% | 6 |
-| 2 | Python | 38.39 | 14.5% | 8 |
+| 2 | Python | 38.38 | 14.5% | 8 |
 | 3 | Jupyter Notebook | 37.06 | 14.0% | 5 |
 | 4 | Scala | 29.69 | 11.2% | 2 |
 | 5 | Haskell | 28.56 | 10.8% | 3 |
 | 6 | EJS | 17.31 | 6.6% | 1 |
 | 7 | C | 13.01 | 4.9% | 4 |
-| 8 | Rust | 6.79 | 2.6% | 4 |
+| 8 | Rust | 6.80 | 2.6% | 4 |
 | 9 | Yacc | 6.03 | 2.3% | 1 |
 | 10 | Lex | 4.99 | 1.9% | 1 |
 | 11 | Shell | 3.14 | 1.2% | 6 |
@@ -58,7 +58,7 @@ Generated: 2026-07-08T07:35:52.350Z
 | Choudhry18/Calendar_Schedular | 1.49 | 6.2 KB |
 | gperezs/StarcNet | 0.10 | 27.3 KB |
 | dora-rs/dora | 0.06 | 135.8 KB |
-| astral-sh/uv | 0.05 | 301.2 KB |
+| astral-sh/uv | 0.05 | 302.0 KB |
 
 ### Jupyter Notebook — 14.0%
 
@@ -105,7 +105,7 @@ Generated: 2026-07-08T07:35:52.350Z
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | astral-sh/uv | 2.94 | 18.2 MB |
-| dora-rs/dora | 1.85 | 3.9 MB |
+| dora-rs/dora | 1.85 | 4.1 MB |
 | Choudhry18/rasterizer | 1 | 24.1 KB |
 | Choudhry18/wise-api | 1 | 6.7 KB |
 
@@ -127,7 +127,7 @@ Generated: 2026-07-08T07:35:52.350Z
 |------|----------------------|-------|
 | Blobit-AI/homebrew-tap | 2.75 | 2.9 KB |
 | Choudhry18/StarClustering | 0.24 | 2.6 KB |
-| dora-rs/dora | 0.07 | 160.3 KB |
+| dora-rs/dora | 0.07 | 160.4 KB |
 | Choudhry18/British | 0.07 | 62 B |
 | gperezs/StarcNet | 0.00 | 1.3 KB |
 | astral-sh/uv | 0.00 | 26.6 KB |
@@ -317,7 +317,7 @@ Generated: 2026-07-08T07:35:52.350Z
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
 | Rust | 18.2 MB | 98.2% | 2.94 |
-| Python | 301.2 KB | 1.6% | 0.05 |
+| Python | 302.0 KB | 1.6% | 0.05 |
 | Shell | 26.6 KB | 0.1% | 0.00 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
 | PowerShell | 2.8 KB | 0.0% | 0.00 |
@@ -349,11 +349,11 @@ Generated: 2026-07-08T07:35:52.350Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 3.9 MB | 92.3% | 1.85 |
+| Rust | 4.1 MB | 92.5% | 1.85 |
 | C | 17.7 KB | 0.4% | 0.01 |
-| Python | 135.8 KB | 3.1% | 0.06 |
+| Python | 135.8 KB | 3.0% | 0.06 |
 | C++ | 8.2 KB | 0.2% | 0.00 |
-| Shell | 160.3 KB | 3.7% | 0.07 |
+| Shell | 160.4 KB | 3.6% | 0.07 |
 | PowerShell | 1.4 KB | 0.0% | 0.00 |
 | Nix | 1.4 KB | 0.0% | 0.00 |
 | Dockerfile | 3.7 KB | 0.1% | 0.00 |
