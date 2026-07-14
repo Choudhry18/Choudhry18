@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-07-13T08:22:29.061Z
+Generated: 2026-07-14T07:15:30.347Z
 
 - **Repos analyzed:** 26
 - **Repos skipped** (no language data or all excluded): 5
@@ -58,7 +58,7 @@ Generated: 2026-07-13T08:22:29.061Z
 | Choudhry18/Calendar_Schedular | 1.49 | 6.2 KB |
 | gperezs/StarcNet | 0.10 | 27.3 KB |
 | dora-rs/dora | 0.06 | 135.8 KB |
-| astral-sh/uv | 0.05 | 302.0 KB |
+| astral-sh/uv | 0.05 | 302.7 KB |
 
 ### Jupyter Notebook — 14.0%
 
@@ -104,7 +104,7 @@ Generated: 2026-07-13T08:22:29.061Z
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
-| astral-sh/uv | 2.95 | 18.2 MB |
+| astral-sh/uv | 2.95 | 18.3 MB |
 | dora-rs/dora | 1.85 | 4.1 MB |
 | Choudhry18/rasterizer | 1 | 24.1 KB |
 | Choudhry18/wise-api | 1 | 6.7 KB |
@@ -234,6 +234,14 @@ Generated: 2026-07-13T08:22:29.061Z
 | JavaScript | 20.5 KB | 44.2% | 13.69 |
 | EJS | 26.0 KB | 55.8% | 17.31 |
 
+### Choudhry18/StarClustering — 29 commits
+
+| Language | Bytes | % of Repo | Weighted Contributions |
+|----------|-------|-----------|----------------------|
+| Shell | 2.6 KB | 0.8% | 0.24 |
+| Jupyter Notebook | 240.9 KB | 78.1% | 22.66 |
+| Python | 64.9 KB | 21.0% | 6.10 |
+
 ### Choudhry18/British — 29 commits
 
 | Language | Bytes | % of Repo | Weighted Contributions |
@@ -243,14 +251,6 @@ Generated: 2026-07-13T08:22:29.061Z
 | Makefile | 212 B | 0.8% | 0.23 |
 | Yacc | 5.3 KB | 20.8% | 6.03 |
 | Shell | 62 B | 0.2% | 0.07 |
-
-### Choudhry18/StarClustering — 29 commits
-
-| Language | Bytes | % of Repo | Weighted Contributions |
-|----------|-------|-----------|----------------------|
-| Shell | 2.6 KB | 0.8% | 0.24 |
-| Jupyter Notebook | 240.9 KB | 78.1% | 22.66 |
-| Python | 64.9 KB | 21.0% | 6.10 |
 
 ### TrinityUniversity/group-projects-levi-s_love_pursuit — 20 commits
 
@@ -316,8 +316,8 @@ Generated: 2026-07-13T08:22:29.061Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 18.2 MB | 98.2% | 2.95 |
-| Python | 302.0 KB | 1.6% | 0.05 |
+| Rust | 18.3 MB | 98.2% | 2.95 |
+| Python | 302.7 KB | 1.6% | 0.05 |
 | Shell | 26.6 KB | 0.1% | 0.00 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
 | PowerShell | 2.8 KB | 0.0% | 0.00 |
