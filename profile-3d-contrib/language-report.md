@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-07-15T07:19:41.427Z
+Generated: 2026-07-16T07:26:56.834Z
 
 - **Repos analyzed:** 26
 - **Repos skipped** (no language data or all excluded): 5
@@ -349,11 +349,11 @@ Generated: 2026-07-15T07:19:41.427Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 4.1 MB | 92.5% | 1.85 |
+| Rust | 4.1 MB | 92.6% | 1.85 |
 | C | 17.7 KB | 0.4% | 0.01 |
 | Python | 135.8 KB | 3.0% | 0.06 |
 | C++ | 8.2 KB | 0.2% | 0.00 |
-| Shell | 160.4 KB | 3.6% | 0.07 |
+| Shell | 160.4 KB | 3.5% | 0.07 |
 | PowerShell | 1.4 KB | 0.0% | 0.00 |
 | Nix | 1.4 KB | 0.0% | 0.00 |
 | Dockerfile | 3.7 KB | 0.1% | 0.00 |
