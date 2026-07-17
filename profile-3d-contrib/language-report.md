@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-07-16T07:26:56.834Z
+Generated: 2026-07-17T07:23:38.570Z
 
 - **Repos analyzed:** 26
 - **Repos skipped** (no language data or all excluded): 5
@@ -58,7 +58,7 @@ Generated: 2026-07-16T07:26:56.834Z
 | Choudhry18/Calendar_Schedular | 1.49 | 6.2 KB |
 | gperezs/StarcNet | 0.10 | 27.3 KB |
 | dora-rs/dora | 0.06 | 135.8 KB |
-| astral-sh/uv | 0.05 | 305.8 KB |
+| astral-sh/uv | 0.05 | 290.0 KB |
 
 ### Jupyter Notebook — 14.0%
 
@@ -104,7 +104,7 @@ Generated: 2026-07-16T07:26:56.834Z
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
-| astral-sh/uv | 2.94 | 18.4 MB |
+| astral-sh/uv | 2.95 | 18.4 MB |
 | dora-rs/dora | 1.85 | 4.1 MB |
 | Choudhry18/rasterizer | 1 | 24.1 KB |
 | Choudhry18/wise-api | 1 | 6.7 KB |
@@ -127,10 +127,10 @@ Generated: 2026-07-16T07:26:56.834Z
 |------|----------------------|-------|
 | Blobit-AI/homebrew-tap | 2.75 | 2.9 KB |
 | Choudhry18/StarClustering | 0.24 | 2.6 KB |
-| dora-rs/dora | 0.07 | 160.4 KB |
+| dora-rs/dora | 0.07 | 160.5 KB |
 | Choudhry18/British | 0.07 | 62 B |
+| astral-sh/uv | 0.01 | 34.8 KB |
 | gperezs/StarcNet | 0.00 | 1.3 KB |
-| astral-sh/uv | 0.00 | 27.6 KB |
 
 ### TypeScript — 1.1%
 
@@ -316,9 +316,9 @@ Generated: 2026-07-16T07:26:56.834Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 18.4 MB | 98.2% | 2.94 |
-| Python | 305.8 KB | 1.6% | 0.05 |
-| Shell | 27.6 KB | 0.1% | 0.00 |
+| Rust | 18.4 MB | 98.2% | 2.95 |
+| Python | 290.0 KB | 1.5% | 0.05 |
+| Shell | 34.8 KB | 0.2% | 0.01 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
 | PowerShell | 2.8 KB | 0.0% | 0.00 |
 | Dockerfile | 5.1 KB | 0.0% | 0.00 |
@@ -349,11 +349,11 @@ Generated: 2026-07-16T07:26:56.834Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 4.1 MB | 92.6% | 1.85 |
+| Rust | 4.1 MB | 92.7% | 1.85 |
 | C | 17.7 KB | 0.4% | 0.01 |
 | Python | 135.8 KB | 3.0% | 0.06 |
 | C++ | 8.2 KB | 0.2% | 0.00 |
-| Shell | 160.4 KB | 3.5% | 0.07 |
+| Shell | 160.5 KB | 3.5% | 0.07 |
 | PowerShell | 1.4 KB | 0.0% | 0.00 |
 | Nix | 1.4 KB | 0.0% | 0.00 |
 | Dockerfile | 3.7 KB | 0.1% | 0.00 |
