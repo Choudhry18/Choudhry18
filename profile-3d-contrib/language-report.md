@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-07-24T07:36:51.575Z
+Generated: 2026-07-25T07:23:02.974Z
 
 - **Repos analyzed:** 26
 - **Repos skipped** (no language data or all excluded): 5
@@ -57,7 +57,7 @@ Generated: 2026-07-24T07:36:51.575Z
 | Choudhry18/spotify-probability | 2 | 7.0 KB |
 | Choudhry18/Calendar_Schedular | 1.49 | 6.2 KB |
 | gperezs/StarcNet | 0.10 | 27.3 KB |
-| dora-rs/dora | 0.06 | 136.5 KB |
+| dora-rs/dora | 0.06 | 147.9 KB |
 | astral-sh/uv | 0.05 | 291.0 KB |
 
 ### Jupyter Notebook — 14.0%
@@ -105,7 +105,7 @@ Generated: 2026-07-24T07:36:51.575Z
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | astral-sh/uv | 2.94 | 17.4 MB |
-| dora-rs/dora | 1.86 | 4.3 MB |
+| dora-rs/dora | 1.86 | 4.6 MB |
 | Choudhry18/rasterizer | 1 | 24.1 KB |
 | Choudhry18/wise-api | 1 | 6.7 KB |
 
@@ -128,7 +128,7 @@ Generated: 2026-07-24T07:36:51.575Z
 | Blobit-AI/homebrew-tap | 2.75 | 2.9 KB |
 | Choudhry18/StarClustering | 0.24 | 2.6 KB |
 | Choudhry18/British | 0.07 | 62 B |
-| dora-rs/dora | 0.07 | 160.8 KB |
+| dora-rs/dora | 0.07 | 165.4 KB |
 | astral-sh/uv | 0.01 | 36.9 KB |
 | gperezs/StarcNet | 0.00 | 1.3 KB |
 
@@ -165,7 +165,7 @@ Generated: 2026-07-24T07:36:51.575Z
 | Choudhry18/British | 0.23 | 212 B |
 | TU-CSCI2322-FL23/solver-dots-and-booxes | 0.11 | 248 B |
 | Choudhry18/Digit_Recognition | 0.01 | 382 B |
-| dora-rs/dora | 0.00 | 7.3 KB |
+| dora-rs/dora | 0.00 | 7.4 KB |
 
 ### Procfile — 0.0%
 
@@ -349,15 +349,15 @@ Generated: 2026-07-24T07:36:51.575Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 4.3 MB | 92.9% | 1.86 |
+| Rust | 4.6 MB | 93.0% | 1.86 |
 | C | 17.7 KB | 0.4% | 0.01 |
-| Python | 136.5 KB | 2.9% | 0.06 |
+| Python | 147.9 KB | 2.9% | 0.06 |
 | C++ | 8.2 KB | 0.2% | 0.00 |
-| Shell | 160.8 KB | 3.4% | 0.07 |
+| Shell | 165.4 KB | 3.3% | 0.07 |
 | PowerShell | 1.6 KB | 0.0% | 0.00 |
 | Nix | 1.4 KB | 0.0% | 0.00 |
 | Dockerfile | 3.7 KB | 0.1% | 0.00 |
-| Makefile | 7.3 KB | 0.2% | 0.00 |
+| Makefile | 7.4 KB | 0.1% | 0.00 |
 
 ### Choudhry18/job_portal — 2 commits
 
