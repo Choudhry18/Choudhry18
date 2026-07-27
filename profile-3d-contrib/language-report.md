@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-07-26T07:40:57.032Z
+Generated: 2026-07-27T08:38:33.901Z
 
 - **Repos analyzed:** 26
 - **Repos skipped** (no language data or all excluded): 5
@@ -20,7 +20,7 @@ Generated: 2026-07-26T07:40:57.032Z
 | 8 | Rust | 6.80 | 2.6% | 4 |
 | 9 | Yacc | 6.03 | 2.3% | 1 |
 | 10 | Lex | 4.99 | 1.9% | 1 |
-| 11 | Shell | 3.14 | 1.2% | 6 |
+| 11 | Shell | 3.13 | 1.2% | 6 |
 | 12 | TypeScript | 2.99 | 1.1% | 2 |
 | 13 | Java | 2 | 0.8% | 1 |
 | 14 | Ruby | 1.25 | 0.5% | 1 |
