@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-07-29T07:48:12.363Z
+Generated: 2026-07-30T07:38:13.624Z
 
 - **Repos analyzed:** 26
 - **Repos skipped** (no language data or all excluded): 5
@@ -17,7 +17,7 @@ Generated: 2026-07-29T07:48:12.363Z
 | 5 | Haskell | 28.56 | 10.8% | 3 |
 | 6 | EJS | 17.31 | 6.6% | 1 |
 | 7 | C | 13.01 | 4.9% | 4 |
-| 8 | Rust | 6.80 | 2.6% | 4 |
+| 8 | Rust | 6.81 | 2.6% | 4 |
 | 9 | Yacc | 6.03 | 2.3% | 1 |
 | 10 | Lex | 4.99 | 1.9% | 1 |
 | 11 | Shell | 3.13 | 1.2% | 6 |
@@ -104,8 +104,8 @@ Generated: 2026-07-29T07:48:12.363Z
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
-| astral-sh/uv | 2.94 | 17.6 MB |
-| dora-rs/dora | 1.86 | 4.6 MB |
+| astral-sh/uv | 2.94 | 17.7 MB |
+| dora-rs/dora | 1.86 | 4.7 MB |
 | Choudhry18/rasterizer | 1 | 24.1 KB |
 | Choudhry18/wise-api | 1 | 6.7 KB |
 
@@ -316,7 +316,7 @@ Generated: 2026-07-29T07:48:12.363Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 17.6 MB | 98.1% | 2.94 |
+| Rust | 17.7 MB | 98.1% | 2.94 |
 | Python | 295.7 KB | 1.6% | 0.05 |
 | Shell | 36.9 KB | 0.2% | 0.01 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
@@ -349,7 +349,7 @@ Generated: 2026-07-29T07:48:12.363Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 4.6 MB | 93.1% | 1.86 |
+| Rust | 4.7 MB | 93.1% | 1.86 |
 | C | 17.7 KB | 0.3% | 0.01 |
 | Python | 147.9 KB | 2.9% | 0.06 |
 | C++ | 8.2 KB | 0.2% | 0.00 |
