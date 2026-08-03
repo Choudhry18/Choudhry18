@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-08-02T07:36:16.567Z
+Generated: 2026-08-03T08:36:29.411Z
 
 - **Repos analyzed:** 26
 - **Repos skipped** (no language data or all excluded): 5
@@ -57,7 +57,7 @@ Generated: 2026-08-02T07:36:16.567Z
 | Choudhry18/spotify-probability | 2 | 7.0 KB |
 | Choudhry18/Calendar_Schedular | 1.49 | 6.2 KB |
 | gperezs/StarcNet | 0.10 | 27.3 KB |
-| dora-rs/dora | 0.06 | 147.9 KB |
+| dora-rs/dora | 0.05 | 147.9 KB |
 | astral-sh/uv | 0.05 | 295.7 KB |
 
 ### Jupyter Notebook — 14.0%
@@ -351,7 +351,7 @@ Generated: 2026-08-02T07:36:16.567Z
 |----------|-------|-----------|----------------------|
 | Rust | 4.9 MB | 93.4% | 1.87 |
 | C | 17.7 KB | 0.3% | 0.01 |
-| Python | 147.9 KB | 2.8% | 0.06 |
+| Python | 147.9 KB | 2.7% | 0.05 |
 | C++ | 8.2 KB | 0.2% | 0.00 |
 | Shell | 165.4 KB | 3.1% | 0.06 |
 | PowerShell | 1.6 KB | 0.0% | 0.00 |
