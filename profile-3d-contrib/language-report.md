@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-08-20T05:37:27.916Z
+Generated: 2026-08-21T05:38:53.997Z
 
 - **Repos analyzed:** 26
 - **Repos skipped** (no language data or all excluded): 5
@@ -11,7 +11,7 @@ Generated: 2026-08-20T05:37:27.916Z
 | Rank | Language | Weighted Contributions | % | # Repos |
 |------|----------|----------------------|---|---------|
 | 1 | JavaScript | 71.38 | 27.0% | 6 |
-| 2 | Python | 38.38 | 14.5% | 8 |
+| 2 | Python | 38.37 | 14.5% | 8 |
 | 3 | Jupyter Notebook | 37.06 | 14.0% | 5 |
 | 4 | Scala | 29.69 | 11.2% | 2 |
 | 5 | Haskell | 28.56 | 10.8% | 3 |
@@ -58,7 +58,7 @@ Generated: 2026-08-20T05:37:27.916Z
 | Choudhry18/Calendar_Schedular | 1.49 | 6.2 KB |
 | gperezs/StarcNet | 0.10 | 27.3 KB |
 | astral-sh/uv | 0.05 | 317.5 KB |
-| dora-rs/dora | 0.05 | 161.7 KB |
+| dora-rs/dora | 0.05 | 158.9 KB |
 
 ### Jupyter Notebook — 14.0%
 
@@ -105,7 +105,7 @@ Generated: 2026-08-20T05:37:27.916Z
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | astral-sh/uv | 2.94 | 18.1 MB |
-| dora-rs/dora | 1.89 | 6.1 MB |
+| dora-rs/dora | 1.89 | 6.3 MB |
 | Choudhry18/rasterizer | 1 | 24.1 KB |
 | Choudhry18/wise-api | 1 | 6.7 KB |
 
@@ -349,11 +349,11 @@ Generated: 2026-08-20T05:37:27.916Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 6.1 MB | 94.3% | 1.89 |
+| Rust | 6.3 MB | 94.5% | 1.89 |
 | C | 17.7 KB | 0.3% | 0.01 |
-| Python | 161.7 KB | 2.4% | 0.05 |
+| Python | 158.9 KB | 2.3% | 0.05 |
 | C++ | 8.2 KB | 0.1% | 0.00 |
-| Shell | 172.0 KB | 2.6% | 0.05 |
+| Shell | 172.0 KB | 2.5% | 0.05 |
 | PowerShell | 1.6 KB | 0.0% | 0.00 |
 | Nix | 1.4 KB | 0.0% | 0.00 |
 | Dockerfile | 3.7 KB | 0.1% | 0.00 |
