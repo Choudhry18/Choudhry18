@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-08-21T05:38:53.997Z
+Generated: 2026-08-22T05:33:58.925Z
 
 - **Repos analyzed:** 26
 - **Repos skipped** (no language data or all excluded): 5
@@ -128,7 +128,7 @@ Generated: 2026-08-21T05:38:53.997Z
 | Blobit-AI/homebrew-tap | 2.75 | 2.9 KB |
 | Choudhry18/StarClustering | 0.24 | 2.6 KB |
 | Choudhry18/British | 0.07 | 62 B |
-| dora-rs/dora | 0.05 | 172.0 KB |
+| dora-rs/dora | 0.05 | 172.6 KB |
 | astral-sh/uv | 0.01 | 38.0 KB |
 | gperezs/StarcNet | 0.00 | 1.3 KB |
 
@@ -353,7 +353,7 @@ Generated: 2026-08-21T05:38:53.997Z
 | C | 17.7 KB | 0.3% | 0.01 |
 | Python | 158.9 KB | 2.3% | 0.05 |
 | C++ | 8.2 KB | 0.1% | 0.00 |
-| Shell | 172.0 KB | 2.5% | 0.05 |
+| Shell | 172.6 KB | 2.5% | 0.05 |
 | PowerShell | 1.6 KB | 0.0% | 0.00 |
 | Nix | 1.4 KB | 0.0% | 0.00 |
 | Dockerfile | 3.7 KB | 0.1% | 0.00 |
