@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-08-26T05:40:39.263Z
+Generated: 2026-08-27T16:20:24.621Z
 
 - **Repos analyzed:** 26
 - **Repos skipped** (no language data or all excluded): 5
@@ -11,7 +11,7 @@ Generated: 2026-08-26T05:40:39.263Z
 | Rank | Language | Weighted Contributions | % | # Repos |
 |------|----------|----------------------|---|---------|
 | 1 | JavaScript | 71.38 | 27.0% | 6 |
-| 2 | Python | 38.37 | 14.5% | 8 |
+| 2 | Python | 38.38 | 14.5% | 8 |
 | 3 | Jupyter Notebook | 37.06 | 14.0% | 5 |
 | 4 | Scala | 29.69 | 11.2% | 2 |
 | 5 | Haskell | 28.56 | 10.8% | 3 |
@@ -58,7 +58,7 @@ Generated: 2026-08-26T05:40:39.263Z
 | Choudhry18/Calendar_Schedular | 1.49 | 6.2 KB |
 | gperezs/StarcNet | 0.10 | 27.3 KB |
 | astral-sh/uv | 0.05 | 317.5 KB |
-| dora-rs/dora | 0.05 | 158.9 KB |
+| dora-rs/dora | 0.05 | 171.4 KB |
 
 ### Jupyter Notebook — 14.0%
 
@@ -105,7 +105,7 @@ Generated: 2026-08-26T05:40:39.263Z
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | astral-sh/uv | 2.94 | 18.2 MB |
-| dora-rs/dora | 1.89 | 6.3 MB |
+| dora-rs/dora | 1.88 | 6.3 MB |
 | Choudhry18/rasterizer | 1 | 24.1 KB |
 | Choudhry18/wise-api | 1 | 6.7 KB |
 
@@ -128,7 +128,7 @@ Generated: 2026-08-26T05:40:39.263Z
 | Blobit-AI/homebrew-tap | 2.75 | 2.9 KB |
 | Choudhry18/StarClustering | 0.24 | 2.6 KB |
 | Choudhry18/British | 0.07 | 62 B |
-| dora-rs/dora | 0.05 | 172.6 KB |
+| dora-rs/dora | 0.05 | 180.1 KB |
 | astral-sh/uv | 0.01 | 38.0 KB |
 | gperezs/StarcNet | 0.00 | 1.3 KB |
 
@@ -165,7 +165,7 @@ Generated: 2026-08-26T05:40:39.263Z
 | Choudhry18/British | 0.23 | 212 B |
 | TU-CSCI2322-FL23/solver-dots-and-booxes | 0.11 | 248 B |
 | Choudhry18/Digit_Recognition | 0.01 | 382 B |
-| dora-rs/dora | 0.00 | 8.9 KB |
+| dora-rs/dora | 0.00 | 10.4 KB |
 
 ### Procfile — 0.0%
 
@@ -349,15 +349,15 @@ Generated: 2026-08-26T05:40:39.263Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 6.3 MB | 94.5% | 1.89 |
+| Rust | 6.3 MB | 94.2% | 1.88 |
 | C | 17.7 KB | 0.3% | 0.01 |
-| Python | 158.9 KB | 2.3% | 0.05 |
+| Python | 171.4 KB | 2.5% | 0.05 |
 | C++ | 8.2 KB | 0.1% | 0.00 |
-| Shell | 172.6 KB | 2.5% | 0.05 |
+| Shell | 180.1 KB | 2.6% | 0.05 |
 | PowerShell | 1.6 KB | 0.0% | 0.00 |
 | Nix | 1.4 KB | 0.0% | 0.00 |
 | Dockerfile | 3.7 KB | 0.1% | 0.00 |
-| Makefile | 8.9 KB | 0.1% | 0.00 |
+| Makefile | 10.4 KB | 0.2% | 0.00 |
 
 ### Choudhry18/job_portal — 2 commits
 
