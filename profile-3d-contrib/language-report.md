@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-08-28T17:18:50.295Z
+Generated: 2026-08-29T11:33:23.343Z
 
 - **Repos analyzed:** 26
 - **Repos skipped** (no language data or all excluded): 5
@@ -129,7 +129,7 @@ Generated: 2026-08-28T17:18:50.295Z
 | Choudhry18/StarClustering | 0.24 | 2.6 KB |
 | Choudhry18/British | 0.07 | 62 B |
 | dora-rs/dora | 0.05 | 180.1 KB |
-| astral-sh/uv | 0.01 | 38.0 KB |
+| astral-sh/uv | 0.01 | 38.3 KB |
 | gperezs/StarcNet | 0.00 | 1.3 KB |
 
 ### TypeScript — 1.1%
@@ -318,7 +318,7 @@ Generated: 2026-08-28T17:18:50.295Z
 |----------|-------|-----------|----------------------|
 | Rust | 18.1 MB | 98.0% | 2.94 |
 | Python | 317.5 KB | 1.7% | 0.05 |
-| Shell | 38.0 KB | 0.2% | 0.01 |
+| Shell | 38.3 KB | 0.2% | 0.01 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
 | PowerShell | 2.8 KB | 0.0% | 0.00 |
 | Dockerfile | 5.2 KB | 0.0% | 0.00 |
