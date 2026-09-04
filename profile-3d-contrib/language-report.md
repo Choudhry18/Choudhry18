@@ -1,8 +1,8 @@
 # Language Distribution Report
 
-Generated: 2026-09-03T09:36:11.042Z
+Generated: 2026-09-04T09:28:35.502Z
 
-- **Repos analyzed:** 26
+- **Repos analyzed:** 27
 - **Repos skipped** (no language data or all excluded): 5
 - **Excluded languages:** html, scss, css
 
@@ -10,24 +10,24 @@ Generated: 2026-09-03T09:36:11.042Z
 
 | Rank | Language | Weighted Contributions | % | # Repos |
 |------|----------|----------------------|---|---------|
-| 1 | JavaScript | 71.38 | 27.0% | 6 |
-| 2 | Python | 38.39 | 14.5% | 8 |
-| 3 | Jupyter Notebook | 37.06 | 14.0% | 5 |
-| 4 | Scala | 29.69 | 11.2% | 2 |
-| 5 | Haskell | 28.56 | 10.8% | 3 |
-| 6 | EJS | 17.31 | 6.6% | 1 |
-| 7 | C | 13.01 | 4.9% | 4 |
-| 8 | Rust | 6.80 | 2.6% | 4 |
-| 9 | Yacc | 6.03 | 2.3% | 1 |
-| 10 | Lex | 4.99 | 1.9% | 1 |
-| 11 | Shell | 3.12 | 1.2% | 6 |
-| 12 | TypeScript | 2.99 | 1.1% | 2 |
-| 13 | Java | 2 | 0.8% | 1 |
-| 14 | Ruby | 1.25 | 0.5% | 1 |
+| 1 | JavaScript | 71.38 | 25.0% | 6 |
+| 2 | Python | 58.95 | 20.7% | 9 |
+| 3 | Jupyter Notebook | 37.06 | 13.0% | 5 |
+| 4 | Scala | 29.69 | 10.4% | 2 |
+| 5 | Haskell | 28.56 | 10.0% | 3 |
+| 6 | EJS | 17.31 | 6.1% | 1 |
+| 7 | C | 13.01 | 4.6% | 4 |
+| 8 | Rust | 6.80 | 2.4% | 4 |
+| 9 | Yacc | 6.03 | 2.1% | 1 |
+| 10 | Lex | 4.99 | 1.8% | 1 |
+| 11 | Shell | 3.13 | 1.1% | 6 |
+| 12 | TypeScript | 2.99 | 1.0% | 2 |
+| 13 | Java | 2 | 0.7% | 1 |
+| 14 | Ruby | 1.25 | 0.4% | 1 |
 | 15 | C++ | 1.00 | 0.4% | 2 |
-| 16 | Makefile | 0.36 | 0.1% | 4 |
-| 17 | Procfile | 0.03 | 0.0% | 2 |
-| 18 | Dockerfile | 0.00 | 0.0% | 2 |
+| 16 | Dockerfile | 0.45 | 0.2% | 3 |
+| 17 | Makefile | 0.36 | 0.1% | 4 |
+| 18 | Procfile | 0.03 | 0.0% | 2 |
 | 19 | Batchfile | 0.00 | 0.0% | 1 |
 | 20 | PowerShell | 0.00 | 0.0% | 2 |
 | 21 | Nushell | 0.00 | 0.0% | 1 |
@@ -36,7 +36,7 @@ Generated: 2026-09-03T09:36:11.042Z
 
 ## Per-Language Breakdown (Top Repos)
 
-### JavaScript — 27.0%
+### JavaScript — 25.0%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
@@ -47,10 +47,11 @@ Generated: 2026-09-03T09:36:11.042Z
 | Choudhry18/WebTasks | 2.27 | 9.2 KB |
 | Choudhry18/job_portal | 0.01 | 660 B |
 
-### Python — 14.5%
+### Python — 20.7%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
+| Choudhry18/HVAC_Voice_Agent | 20.55 | 133.2 KB |
 | aashishdhanani/flux.ai | 17.59 | 49.1 KB |
 | Choudhry18/uv-test | 11 | 85 B |
 | Choudhry18/StarClustering | 6.10 | 64.9 KB |
@@ -58,9 +59,9 @@ Generated: 2026-09-03T09:36:11.042Z
 | Choudhry18/Calendar_Schedular | 1.49 | 6.2 KB |
 | gperezs/StarcNet | 0.10 | 27.3 KB |
 | dora-rs/dora | 0.07 | 240.2 KB |
-| astral-sh/uv | 0.05 | 318.8 KB |
+| astral-sh/uv | 0.05 | 319.6 KB |
 
-### Jupyter Notebook — 14.0%
+### Jupyter Notebook — 13.0%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
@@ -70,14 +71,14 @@ Generated: 2026-09-03T09:36:11.042Z
 | gperezs/StarcNet | 0.89 | 240.9 KB |
 | astral-sh/uv | 0.00 | 2.1 KB |
 
-### Scala — 11.2%
+### Scala — 10.4%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | TrinityUniversity/group-projects-levi-s_love_pursuit | 19.98 | 77.6 KB |
 | Choudhry18/WebTasks | 9.71 | 39.5 KB |
 
-### Haskell — 10.8%
+### Haskell — 10.0%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
@@ -85,13 +86,13 @@ Generated: 2026-09-03T09:36:11.042Z
 | TU-CSCI2322-FL23/solver-dots-and-booxes | 9.89 | 21.0 KB |
 | Choudhry18/Digit_Recognition | 0.99 | 46.8 KB |
 
-### EJS — 6.6%
+### EJS — 6.1%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | Choudhry18/ReptilesRus | 17.31 | 26.0 KB |
 
-### C — 4.9%
+### C — 4.6%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
@@ -100,7 +101,7 @@ Generated: 2026-09-03T09:36:11.042Z
 | dora-rs/dora | 0.01 | 17.7 KB |
 | astral-sh/uv | 0.00 | 320 B |
 
-### Rust — 2.6%
+### Rust — 2.4%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
@@ -109,43 +110,43 @@ Generated: 2026-09-03T09:36:11.042Z
 | Choudhry18/rasterizer | 1 | 24.1 KB |
 | Choudhry18/wise-api | 1 | 6.7 KB |
 
-### Yacc — 2.3%
+### Yacc — 2.1%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | Choudhry18/British | 6.03 | 5.3 KB |
 
-### Lex — 1.9%
+### Lex — 1.8%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | Choudhry18/British | 4.99 | 4.4 KB |
 
-### Shell — 1.2%
+### Shell — 1.1%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | Blobit-AI/homebrew-tap | 2.75 | 2.9 KB |
 | Choudhry18/StarClustering | 0.24 | 2.6 KB |
 | Choudhry18/British | 0.07 | 62 B |
-| dora-rs/dora | 0.05 | 193.8 KB |
+| dora-rs/dora | 0.06 | 200.3 KB |
 | astral-sh/uv | 0.01 | 38.3 KB |
 | gperezs/StarcNet | 0.00 | 1.3 KB |
 
-### TypeScript — 1.1%
+### TypeScript — 1.0%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | Choudhry18/job_portal | 1.99 | 127.9 KB |
 | Choudhry18/mmiInterview | 1 | 553 B |
 
-### Java — 0.8%
+### Java — 0.7%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | Choudhry18/Assignment-1 | 2 | 3.5 KB |
 
-### Ruby — 0.5%
+### Ruby — 0.4%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
@@ -158,6 +159,14 @@ Generated: 2026-09-03T09:36:11.042Z
 | Choudhry18/SpiderBot | 1 | 25.8 KB |
 | dora-rs/dora | 0.00 | 8.2 KB |
 
+### Dockerfile — 0.2%
+
+| Repo | Weighted Contributions | Bytes |
+|------|----------------------|-------|
+| Choudhry18/HVAC_Voice_Agent | 0.45 | 2.9 KB |
+| dora-rs/dora | 0.00 | 3.7 KB |
+| astral-sh/uv | 0.00 | 5.2 KB |
+
 ### Makefile — 0.1%
 
 | Repo | Weighted Contributions | Bytes |
@@ -165,7 +174,7 @@ Generated: 2026-09-03T09:36:11.042Z
 | Choudhry18/British | 0.23 | 212 B |
 | TU-CSCI2322-FL23/solver-dots-and-booxes | 0.11 | 248 B |
 | Choudhry18/Digit_Recognition | 0.01 | 382 B |
-| dora-rs/dora | 0.00 | 11.5 KB |
+| dora-rs/dora | 0.00 | 11.8 KB |
 
 ### Procfile — 0.0%
 
@@ -173,13 +182,6 @@ Generated: 2026-09-03T09:36:11.042Z
 |------|----------------------|-------|
 | TrinityUniversity/group-projects-levi-s_love_pursuit | 0.02 | 70 B |
 | Choudhry18/WebTasks | 0.02 | 70 B |
-
-### Dockerfile — 0.0%
-
-| Repo | Weighted Contributions | Bytes |
-|------|----------------------|-------|
-| dora-rs/dora | 0.00 | 3.7 KB |
-| astral-sh/uv | 0.00 | 5.2 KB |
 
 ### Batchfile — 0.0%
 
@@ -252,6 +254,13 @@ Generated: 2026-09-03T09:36:11.042Z
 | Yacc | 5.3 KB | 20.8% | 6.03 |
 | Shell | 62 B | 0.2% | 0.07 |
 
+### Choudhry18/HVAC_Voice_Agent — 21 commits
+
+| Language | Bytes | % of Repo | Weighted Contributions |
+|----------|-------|-----------|----------------------|
+| Dockerfile | 2.9 KB | 2.1% | 0.45 |
+| Python | 133.2 KB | 97.9% | 20.55 |
+
 ### TrinityUniversity/group-projects-levi-s_love_pursuit — 20 commits
 
 | Language | Bytes | % of Repo | Weighted Contributions |
@@ -317,7 +326,7 @@ Generated: 2026-09-03T09:36:11.042Z
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
 | Rust | 18.2 MB | 98.0% | 2.94 |
-| Python | 318.8 KB | 1.7% | 0.05 |
+| Python | 319.6 KB | 1.7% | 0.05 |
 | Shell | 38.3 KB | 0.2% | 0.01 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
 | PowerShell | 2.8 KB | 0.0% | 0.00 |
@@ -349,15 +358,15 @@ Generated: 2026-09-03T09:36:11.042Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 6.4 MB | 93.2% | 1.86 |
+| Rust | 6.4 MB | 93.1% | 1.86 |
 | C | 17.7 KB | 0.3% | 0.01 |
 | Python | 240.2 KB | 3.4% | 0.07 |
 | C++ | 8.2 KB | 0.1% | 0.00 |
-| Shell | 193.8 KB | 2.7% | 0.05 |
+| Shell | 200.3 KB | 2.8% | 0.06 |
 | PowerShell | 1.6 KB | 0.0% | 0.00 |
 | Nix | 1.4 KB | 0.0% | 0.00 |
 | Dockerfile | 3.7 KB | 0.1% | 0.00 |
-| Makefile | 11.5 KB | 0.2% | 0.00 |
+| Makefile | 11.8 KB | 0.2% | 0.00 |
 
 ### Choudhry18/job_portal — 2 commits
 
