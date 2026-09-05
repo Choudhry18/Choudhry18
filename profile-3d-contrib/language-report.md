@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-09-04T09:28:35.502Z
+Generated: 2026-09-05T08:56:11.070Z
 
 - **Repos analyzed:** 27
 - **Repos skipped** (no language data or all excluded): 5
@@ -28,8 +28,8 @@ Generated: 2026-09-04T09:28:35.502Z
 | 16 | Dockerfile | 0.45 | 0.2% | 3 |
 | 17 | Makefile | 0.36 | 0.1% | 4 |
 | 18 | Procfile | 0.03 | 0.0% | 2 |
-| 19 | Batchfile | 0.00 | 0.0% | 1 |
-| 20 | PowerShell | 0.00 | 0.0% | 2 |
+| 19 | PowerShell | 0.00 | 0.0% | 2 |
+| 20 | Batchfile | 0.00 | 0.0% | 1 |
 | 21 | Nushell | 0.00 | 0.0% | 1 |
 | 22 | Nix | 0.00 | 0.0% | 1 |
 | 23 | RenderScript | 0.00 | 0.0% | 1 |
@@ -59,7 +59,7 @@ Generated: 2026-09-04T09:28:35.502Z
 | Choudhry18/Calendar_Schedular | 1.49 | 6.2 KB |
 | gperezs/StarcNet | 0.10 | 27.3 KB |
 | dora-rs/dora | 0.07 | 240.2 KB |
-| astral-sh/uv | 0.05 | 319.6 KB |
+| astral-sh/uv | 0.05 | 342.9 KB |
 
 ### Jupyter Notebook — 13.0%
 
@@ -130,7 +130,7 @@ Generated: 2026-09-04T09:28:35.502Z
 | Choudhry18/StarClustering | 0.24 | 2.6 KB |
 | Choudhry18/British | 0.07 | 62 B |
 | dora-rs/dora | 0.06 | 200.3 KB |
-| astral-sh/uv | 0.01 | 38.3 KB |
+| astral-sh/uv | 0.01 | 38.7 KB |
 | gperezs/StarcNet | 0.00 | 1.3 KB |
 
 ### TypeScript — 1.0%
@@ -183,18 +183,18 @@ Generated: 2026-09-04T09:28:35.502Z
 | TrinityUniversity/group-projects-levi-s_love_pursuit | 0.02 | 70 B |
 | Choudhry18/WebTasks | 0.02 | 70 B |
 
+### PowerShell — 0.0%
+
+| Repo | Weighted Contributions | Bytes |
+|------|----------------------|-------|
+| astral-sh/uv | 0.00 | 7.1 KB |
+| dora-rs/dora | 0.00 | 1.6 KB |
+
 ### Batchfile — 0.0%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | astral-sh/uv | 0.00 | 5.7 KB |
-
-### PowerShell — 0.0%
-
-| Repo | Weighted Contributions | Bytes |
-|------|----------------------|-------|
-| dora-rs/dora | 0.00 | 1.6 KB |
-| astral-sh/uv | 0.00 | 2.8 KB |
 
 ### Nushell — 0.0%
 
@@ -325,11 +325,11 @@ Generated: 2026-09-04T09:28:35.502Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 18.2 MB | 98.0% | 2.94 |
-| Python | 319.6 KB | 1.7% | 0.05 |
-| Shell | 38.3 KB | 0.2% | 0.01 |
+| Rust | 18.2 MB | 97.9% | 2.94 |
+| Python | 342.9 KB | 1.8% | 0.05 |
+| Shell | 38.7 KB | 0.2% | 0.01 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
-| PowerShell | 2.8 KB | 0.0% | 0.00 |
+| PowerShell | 7.1 KB | 0.0% | 0.00 |
 | Dockerfile | 5.2 KB | 0.0% | 0.00 |
 | Jupyter Notebook | 2.1 KB | 0.0% | 0.00 |
 | Batchfile | 5.7 KB | 0.0% | 0.00 |
