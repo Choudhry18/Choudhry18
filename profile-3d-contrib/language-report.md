@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-09-09T09:33:44.300Z
+Generated: 2026-09-10T09:33:21.800Z
 
 - **Repos analyzed:** 27
 - **Repos skipped** (no language data or all excluded): 5
@@ -98,7 +98,7 @@ Generated: 2026-09-09T09:33:44.300Z
 |------|----------------------|-------|
 | Choudhry18/SecureProgramming | 11 | 16.1 KB |
 | Choudhry18/ParrallelComputing_RPS | 2 | 1.7 KB |
-| dora-rs/dora | 0.00 | 17.7 KB |
+| dora-rs/dora | 0.01 | 18.9 KB |
 | astral-sh/uv | 0.00 | 320 B |
 
 ### Rust — 2.4%
@@ -106,7 +106,7 @@ Generated: 2026-09-09T09:33:44.300Z
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | astral-sh/uv | 2.93 | 18.3 MB |
-| dora-rs/dora | 1.86 | 6.5 MB |
+| dora-rs/dora | 1.87 | 6.7 MB |
 | Choudhry18/rasterizer | 1 | 24.1 KB |
 | Choudhry18/wise-api | 1 | 6.7 KB |
 
@@ -129,7 +129,7 @@ Generated: 2026-09-09T09:33:44.300Z
 | Blobit-AI/homebrew-tap | 2.75 | 2.9 KB |
 | Choudhry18/StarClustering | 0.24 | 2.6 KB |
 | Choudhry18/British | 0.07 | 62 B |
-| dora-rs/dora | 0.06 | 200.3 KB |
+| dora-rs/dora | 0.06 | 205.2 KB |
 | astral-sh/uv | 0.01 | 39.0 KB |
 | gperezs/StarcNet | 0.00 | 1.3 KB |
 
@@ -174,7 +174,7 @@ Generated: 2026-09-09T09:33:44.300Z
 | Choudhry18/British | 0.23 | 212 B |
 | TU-CSCI2322-FL23/solver-dots-and-booxes | 0.11 | 248 B |
 | Choudhry18/Digit_Recognition | 0.01 | 382 B |
-| dora-rs/dora | 0.00 | 11.8 KB |
+| dora-rs/dora | 0.00 | 12.3 KB |
 
 ### Procfile — 0.0%
 
@@ -276,17 +276,17 @@ Generated: 2026-09-09T09:33:44.300Z
 | Scala | 39.5 KB | 80.9% | 9.71 |
 | JavaScript | 9.2 KB | 18.9% | 2.27 |
 
-### Choudhry18/uv-test — 11 commits
-
-| Language | Bytes | % of Repo | Weighted Contributions |
-|----------|-------|-----------|----------------------|
-| Python | 85 B | 100.0% | 11 |
-
 ### Choudhry18/SecureProgramming — 11 commits
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
 | C | 16.1 KB | 100.0% | 11 |
+
+### Choudhry18/uv-test — 11 commits
+
+| Language | Bytes | % of Repo | Weighted Contributions |
+|----------|-------|-----------|----------------------|
+| Python | 85 B | 100.0% | 11 |
 
 ### TU-CSCI2322-FL23/solver-dots-and-booxes — 10 commits
 
@@ -358,15 +358,15 @@ Generated: 2026-09-09T09:33:44.300Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 6.5 MB | 93.2% | 1.86 |
-| C | 17.7 KB | 0.2% | 0.00 |
-| Python | 240.2 KB | 3.4% | 0.07 |
+| Rust | 6.7 MB | 93.3% | 1.87 |
+| C | 18.9 KB | 0.3% | 0.01 |
+| Python | 240.2 KB | 3.3% | 0.07 |
 | C++ | 8.2 KB | 0.1% | 0.00 |
-| Shell | 200.3 KB | 2.8% | 0.06 |
+| Shell | 205.2 KB | 2.8% | 0.06 |
 | PowerShell | 1.6 KB | 0.0% | 0.00 |
 | Nix | 1.4 KB | 0.0% | 0.00 |
 | Dockerfile | 3.7 KB | 0.1% | 0.00 |
-| Makefile | 11.8 KB | 0.2% | 0.00 |
+| Makefile | 12.3 KB | 0.2% | 0.00 |
 
 ### Choudhry18/job_portal — 2 commits
 
