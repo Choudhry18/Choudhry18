@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-09-12T09:09:54.324Z
+Generated: 2026-09-13T10:07:01.897Z
 
 - **Repos analyzed:** 27
 - **Repos skipped** (no language data or all excluded): 5
@@ -105,7 +105,7 @@ Generated: 2026-09-12T09:09:54.324Z
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
-| astral-sh/uv | 2.93 | 18.4 MB |
+| astral-sh/uv | 2.93 | 18.5 MB |
 | dora-rs/dora | 1.87 | 6.7 MB |
 | Choudhry18/rasterizer | 1 | 24.1 KB |
 | Choudhry18/wise-api | 1 | 6.7 KB |
@@ -325,7 +325,7 @@ Generated: 2026-09-12T09:09:54.324Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 18.4 MB | 97.7% | 2.93 |
+| Rust | 18.5 MB | 97.7% | 2.93 |
 | Python | 377.3 KB | 2.0% | 0.06 |
 | Shell | 40.7 KB | 0.2% | 0.01 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
