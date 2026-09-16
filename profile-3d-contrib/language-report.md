@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-09-15T09:57:21.954Z
+Generated: 2026-09-16T09:48:48.162Z
 
 - **Repos analyzed:** 25
 - **Repos skipped** (no language data or all excluded): 5
@@ -11,7 +11,7 @@ Generated: 2026-09-15T09:57:21.954Z
 | Rank | Language | Weighted Contributions | % | # Repos |
 |------|----------|----------------------|---|---------|
 | 1 | JavaScript | 71.38 | 25.7% | 6 |
-| 2 | Python | 57.96 | 20.8% | 9 |
+| 2 | Python | 57.97 | 20.9% | 9 |
 | 3 | Jupyter Notebook | 34.06 | 12.3% | 5 |
 | 4 | Scala | 29.69 | 10.7% | 2 |
 | 5 | Haskell | 27.57 | 9.9% | 2 |
@@ -47,7 +47,7 @@ Generated: 2026-09-15T09:57:21.954Z
 | Choudhry18/WebTasks | 2.27 | 9.2 KB |
 | Choudhry18/job_portal | 0.01 | 660 B |
 
-### Python — 20.8%
+### Python — 20.9%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
@@ -58,8 +58,8 @@ Generated: 2026-09-15T09:57:21.954Z
 | Choudhry18/spotify-probability | 2 | 7.0 KB |
 | Choudhry18/Calendar_Schedular | 0.50 | 6.2 KB |
 | gperezs/StarcNet | 0.10 | 27.3 KB |
-| dora-rs/dora | 0.07 | 251.1 KB |
-| astral-sh/uv | 0.06 | 377.3 KB |
+| dora-rs/dora | 0.07 | 265.8 KB |
+| astral-sh/uv | 0.06 | 378.1 KB |
 
 ### Jupyter Notebook — 12.3%
 
@@ -97,13 +97,13 @@ Generated: 2026-09-15T09:57:21.954Z
 |------|----------------------|-------|
 | Choudhry18/SecureProgramming | 11 | 16.1 KB |
 | dora-rs/dora | 0.01 | 18.9 KB |
-| astral-sh/uv | 0.00 | 320 B |
+| astral-sh/uv | 0.00 | 806 B |
 
 ### Rust — 2.4%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
-| astral-sh/uv | 2.93 | 18.5 MB |
+| astral-sh/uv | 2.93 | 18.7 MB |
 | dora-rs/dora | 1.86 | 6.8 MB |
 | Choudhry18/rasterizer | 1 | 24.1 KB |
 | Choudhry18/wise-api | 1 | 6.7 KB |
@@ -127,7 +127,7 @@ Generated: 2026-09-15T09:57:21.954Z
 | Blobit-AI/homebrew-tap | 2.75 | 2.9 KB |
 | Choudhry18/StarClustering | 0.24 | 2.6 KB |
 | Choudhry18/British | 0.07 | 62 B |
-| dora-rs/dora | 0.06 | 218.2 KB |
+| dora-rs/dora | 0.06 | 223.6 KB |
 | astral-sh/uv | 0.01 | 40.7 KB |
 | gperezs/StarcNet | 0.00 | 1.3 KB |
 
@@ -171,7 +171,7 @@ Generated: 2026-09-15T09:57:21.954Z
 |------|----------------------|-------|
 | Choudhry18/British | 0.23 | 212 B |
 | TU-CSCI2322-FL23/solver-dots-and-booxes | 0.11 | 248 B |
-| dora-rs/dora | 0.00 | 12.8 KB |
+| dora-rs/dora | 0.00 | 13.1 KB |
 
 ### Procfile — 0.0%
 
@@ -233,14 +233,6 @@ Generated: 2026-09-15T09:57:21.954Z
 | JavaScript | 20.5 KB | 44.2% | 13.69 |
 | EJS | 26.0 KB | 55.8% | 17.31 |
 
-### Choudhry18/StarClustering — 29 commits
-
-| Language | Bytes | % of Repo | Weighted Contributions |
-|----------|-------|-----------|----------------------|
-| Shell | 2.6 KB | 0.8% | 0.24 |
-| Jupyter Notebook | 240.9 KB | 78.1% | 22.66 |
-| Python | 64.9 KB | 21.0% | 6.10 |
-
 ### Choudhry18/British — 29 commits
 
 | Language | Bytes | % of Repo | Weighted Contributions |
@@ -250,6 +242,14 @@ Generated: 2026-09-15T09:57:21.954Z
 | Makefile | 212 B | 0.8% | 0.23 |
 | Yacc | 5.3 KB | 20.8% | 6.03 |
 | Shell | 62 B | 0.2% | 0.07 |
+
+### Choudhry18/StarClustering — 29 commits
+
+| Language | Bytes | % of Repo | Weighted Contributions |
+|----------|-------|-----------|----------------------|
+| Shell | 2.6 KB | 0.8% | 0.24 |
+| Jupyter Notebook | 240.9 KB | 78.1% | 22.66 |
+| Python | 64.9 KB | 21.0% | 6.10 |
 
 ### Choudhry18/HVAC_Voice_Agent — 21 commits
 
@@ -315,8 +315,8 @@ Generated: 2026-09-15T09:57:21.954Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 18.5 MB | 97.7% | 2.93 |
-| Python | 377.3 KB | 1.9% | 0.06 |
+| Rust | 18.7 MB | 97.7% | 2.93 |
+| Python | 378.1 KB | 1.9% | 0.06 |
 | Shell | 40.7 KB | 0.2% | 0.01 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
 | PowerShell | 8.8 KB | 0.0% | 0.00 |
@@ -324,7 +324,7 @@ Generated: 2026-09-15T09:57:21.954Z
 | Jupyter Notebook | 2.1 KB | 0.0% | 0.00 |
 | Batchfile | 5.7 KB | 0.0% | 0.00 |
 | RenderScript | 2 B | 0.0% | 0.00 |
-| C | 320 B | 0.0% | 0.00 |
+| C | 806 B | 0.0% | 0.00 |
 
 ### Choudhry18/Calendar_Schedular — 2 commits
 
@@ -349,15 +349,15 @@ Generated: 2026-09-15T09:57:21.954Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 6.8 MB | 93.1% | 1.86 |
+| Rust | 6.8 MB | 92.8% | 1.86 |
 | C | 18.9 KB | 0.3% | 0.01 |
-| Python | 251.1 KB | 3.4% | 0.07 |
+| Python | 265.8 KB | 3.5% | 0.07 |
 | C++ | 8.2 KB | 0.1% | 0.00 |
-| Shell | 218.2 KB | 2.9% | 0.06 |
+| Shell | 223.6 KB | 3.0% | 0.06 |
 | PowerShell | 1.6 KB | 0.0% | 0.00 |
 | Nix | 1.4 KB | 0.0% | 0.00 |
 | Dockerfile | 3.7 KB | 0.0% | 0.00 |
-| Makefile | 12.8 KB | 0.2% | 0.00 |
+| Makefile | 13.1 KB | 0.2% | 0.00 |
 
 ### Choudhry18/job_portal — 2 commits
 
