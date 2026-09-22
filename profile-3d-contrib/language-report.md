@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-09-21T10:35:34.462Z
+Generated: 2026-09-22T09:48:53.543Z
 
 - **Repos analyzed:** 25
 - **Repos skipped** (no language data or all excluded): 5
@@ -96,7 +96,7 @@ Generated: 2026-09-21T10:35:34.462Z
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | Choudhry18/SecureProgramming | 11 | 16.1 KB |
-| dora-rs/dora | 0.01 | 18.9 KB |
+| dora-rs/dora | 0.01 | 19.9 KB |
 | astral-sh/uv | 0.00 | 806 B |
 
 ### Rust — 2.4%
@@ -104,7 +104,7 @@ Generated: 2026-09-21T10:35:34.462Z
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | astral-sh/uv | 2.93 | 18.9 MB |
-| dora-rs/dora | 1.86 | 6.8 MB |
+| dora-rs/dora | 1.86 | 6.9 MB |
 | Choudhry18/rasterizer | 1 | 24.1 KB |
 | Choudhry18/wise-api | 1 | 6.7 KB |
 
@@ -349,8 +349,8 @@ Generated: 2026-09-21T10:35:34.462Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 6.8 MB | 92.8% | 1.86 |
-| C | 18.9 KB | 0.3% | 0.01 |
+| Rust | 6.9 MB | 92.8% | 1.86 |
+| C | 19.9 KB | 0.3% | 0.01 |
 | Python | 275.4 KB | 3.6% | 0.07 |
 | C++ | 8.2 KB | 0.1% | 0.00 |
 | Shell | 223.8 KB | 3.0% | 0.06 |
