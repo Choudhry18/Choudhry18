@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-09-28T11:36:41.496Z
+Generated: 2026-09-29T11:14:54.979Z
 
 - **Repos analyzed:** 25
 - **Repos skipped** (no language data or all excluded): 5
@@ -11,7 +11,7 @@ Generated: 2026-09-28T11:36:41.496Z
 | Rank | Language | Weighted Contributions | % | # Repos |
 |------|----------|----------------------|---|---------|
 | 1 | JavaScript | 71.38 | 25.7% | 6 |
-| 2 | Python | 57.97 | 20.9% | 9 |
+| 2 | Python | 57.96 | 20.9% | 9 |
 | 3 | Jupyter Notebook | 34.05 | 12.2% | 5 |
 | 4 | Scala | 29.69 | 10.7% | 2 |
 | 5 | Haskell | 27.57 | 9.9% | 2 |
