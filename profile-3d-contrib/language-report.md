@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-10-01T11:30:01.963Z
+Generated: 2026-10-02T10:59:36.977Z
 
 - **Repos analyzed:** 25
 - **Repos skipped** (no language data or all excluded): 5
@@ -59,7 +59,7 @@ Generated: 2026-10-01T11:30:01.963Z
 | Choudhry18/Calendar_Schedular | 0.50 | 6.2 KB |
 | gperezs/StarcNet | 0.10 | 27.3 KB |
 | dora-rs/dora | 0.07 | 274.1 KB |
-| astral-sh/uv | 0.06 | 383.5 KB |
+| astral-sh/uv | 0.06 | 380.4 KB |
 
 ### Jupyter Notebook — 12.2%
 
@@ -103,7 +103,7 @@ Generated: 2026-10-01T11:30:01.963Z
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
-| astral-sh/uv | 2.93 | 19.3 MB |
+| astral-sh/uv | 2.93 | 19.4 MB |
 | dora-rs/dora | 1.86 | 7.2 MB |
 | Choudhry18/rasterizer | 1 | 24.1 KB |
 | Choudhry18/wise-api | 1 | 6.7 KB |
@@ -128,7 +128,7 @@ Generated: 2026-10-01T11:30:01.963Z
 | Choudhry18/StarClustering | 0.24 | 2.6 KB |
 | Choudhry18/British | 0.07 | 62 B |
 | dora-rs/dora | 0.06 | 223.7 KB |
-| astral-sh/uv | 0.01 | 41.0 KB |
+| astral-sh/uv | 0.01 | 40.0 KB |
 | gperezs/StarcNet | 0.00 | 1.3 KB |
 
 ### TypeScript — 1.1%
@@ -315,9 +315,9 @@ Generated: 2026-10-01T11:30:01.963Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 19.3 MB | 97.8% | 2.93 |
-| Python | 383.5 KB | 1.9% | 0.06 |
-| Shell | 41.0 KB | 0.2% | 0.01 |
+| Rust | 19.4 MB | 97.8% | 2.93 |
+| Python | 380.4 KB | 1.9% | 0.06 |
+| Shell | 40.0 KB | 0.2% | 0.01 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
 | PowerShell | 8.8 KB | 0.0% | 0.00 |
 | Dockerfile | 5.4 KB | 0.0% | 0.00 |
