@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-10-02T10:59:36.977Z
+Generated: 2026-10-03T10:19:23.089Z
 
 - **Repos analyzed:** 25
 - **Repos skipped** (no language data or all excluded): 5
@@ -11,7 +11,7 @@ Generated: 2026-10-02T10:59:36.977Z
 | Rank | Language | Weighted Contributions | % | # Repos |
 |------|----------|----------------------|---|---------|
 | 1 | JavaScript | 71.38 | 25.7% | 6 |
-| 2 | Python | 57.96 | 20.9% | 9 |
+| 2 | Python | 57.96 | 20.8% | 9 |
 | 3 | Jupyter Notebook | 34.05 | 12.2% | 5 |
 | 4 | Scala | 29.69 | 10.7% | 2 |
 | 5 | Haskell | 27.57 | 9.9% | 2 |
@@ -47,7 +47,7 @@ Generated: 2026-10-02T10:59:36.977Z
 | Choudhry18/WebTasks | 2.27 | 9.2 KB |
 | Choudhry18/job_portal | 0.01 | 660 B |
 
-### Python — 20.9%
+### Python — 20.8%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
@@ -59,7 +59,7 @@ Generated: 2026-10-02T10:59:36.977Z
 | Choudhry18/Calendar_Schedular | 0.50 | 6.2 KB |
 | gperezs/StarcNet | 0.10 | 27.3 KB |
 | dora-rs/dora | 0.07 | 274.1 KB |
-| astral-sh/uv | 0.06 | 380.4 KB |
+| astral-sh/uv | 0.05 | 346.5 KB |
 
 ### Jupyter Notebook — 12.2%
 
@@ -103,7 +103,7 @@ Generated: 2026-10-02T10:59:36.977Z
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
-| astral-sh/uv | 2.93 | 19.4 MB |
+| astral-sh/uv | 2.94 | 19.5 MB |
 | dora-rs/dora | 1.86 | 7.2 MB |
 | Choudhry18/rasterizer | 1 | 24.1 KB |
 | Choudhry18/wise-api | 1 | 6.7 KB |
@@ -184,7 +184,7 @@ Generated: 2026-10-02T10:59:36.977Z
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
-| astral-sh/uv | 0.00 | 8.8 KB |
+| astral-sh/uv | 0.00 | 5.2 KB |
 | dora-rs/dora | 0.00 | 1.6 KB |
 
 ### Batchfile — 0.0%
@@ -315,11 +315,11 @@ Generated: 2026-10-02T10:59:36.977Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 19.4 MB | 97.8% | 2.93 |
-| Python | 380.4 KB | 1.9% | 0.06 |
+| Rust | 19.5 MB | 98.0% | 2.94 |
+| Python | 346.5 KB | 1.7% | 0.05 |
 | Shell | 40.0 KB | 0.2% | 0.01 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
-| PowerShell | 8.8 KB | 0.0% | 0.00 |
+| PowerShell | 5.2 KB | 0.0% | 0.00 |
 | Dockerfile | 5.4 KB | 0.0% | 0.00 |
 | Jupyter Notebook | 2.1 KB | 0.0% | 0.00 |
 | Batchfile | 5.7 KB | 0.0% | 0.00 |
