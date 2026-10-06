@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-10-05T12:11:10.573Z
+Generated: 2026-10-06T11:54:50.451Z
 
 - **Repos analyzed:** 25
 - **Repos skipped** (no language data or all excluded): 5
@@ -96,7 +96,7 @@ Generated: 2026-10-05T12:11:10.573Z
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | Choudhry18/SecureProgramming | 11 | 16.1 KB |
-| dora-rs/dora | 0.00 | 18.1 KB |
+| dora-rs/dora | 0.00 | 18.3 KB |
 | astral-sh/uv | 0.00 | 806 B |
 
 ### Rust — 2.4%
@@ -349,8 +349,8 @@ Generated: 2026-10-05T12:11:10.573Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 7.2 MB | 93.1% | 1.86 |
-| C | 18.1 KB | 0.2% | 0.00 |
+| Rust | 7.2 MB | 93.2% | 1.86 |
+| C | 18.3 KB | 0.2% | 0.00 |
 | Python | 274.1 KB | 3.5% | 0.07 |
 | C++ | 6.2 KB | 0.1% | 0.00 |
 | Shell | 223.7 KB | 2.8% | 0.06 |
