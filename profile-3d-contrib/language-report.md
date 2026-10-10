@@ -1,8 +1,8 @@
 # Language Distribution Report
 
-Generated: 2026-10-09T11:46:26.856Z
+Generated: 2026-10-10T11:04:07.222Z
 
-- **Repos analyzed:** 25
+- **Repos analyzed:** 26
 - **Repos skipped** (no language data or all excluded): 5
 - **Excluded languages:** html, scss, css
 
@@ -10,23 +10,23 @@ Generated: 2026-10-09T11:46:26.856Z
 
 | Rank | Language | Weighted Contributions | % | # Repos |
 |------|----------|----------------------|---|---------|
-| 1 | JavaScript | 71.38 | 25.7% | 6 |
-| 2 | Python | 57.96 | 20.8% | 9 |
+| 1 | JavaScript | 71.39 | 25.6% | 7 |
+| 2 | Python | 58.04 | 20.8% | 10 |
 | 3 | Jupyter Notebook | 34.05 | 12.2% | 5 |
-| 4 | Scala | 29.69 | 10.7% | 2 |
+| 4 | Scala | 29.69 | 10.6% | 2 |
 | 5 | Haskell | 27.57 | 9.9% | 2 |
 | 6 | EJS | 17.31 | 6.2% | 1 |
-| 7 | C | 11.00 | 4.0% | 3 |
-| 8 | Rust | 6.81 | 2.4% | 4 |
+| 7 | C | 11.00 | 3.9% | 4 |
+| 8 | Rust | 7.65 | 2.7% | 5 |
 | 9 | Yacc | 6.03 | 2.2% | 1 |
 | 10 | Lex | 4.99 | 1.8% | 1 |
-| 11 | Shell | 3.12 | 1.1% | 6 |
-| 12 | TypeScript | 2.99 | 1.1% | 2 |
+| 11 | Shell | 3.14 | 1.1% | 7 |
+| 12 | TypeScript | 3.03 | 1.1% | 3 |
 | 13 | Java | 2 | 0.7% | 1 |
-| 14 | Ruby | 1.25 | 0.5% | 1 |
+| 14 | Ruby | 1.25 | 0.4% | 1 |
 | 15 | C++ | 1.00 | 0.4% | 2 |
-| 16 | Dockerfile | 0.45 | 0.2% | 3 |
-| 17 | Makefile | 0.35 | 0.1% | 3 |
+| 16 | Dockerfile | 0.45 | 0.2% | 4 |
+| 17 | Makefile | 0.35 | 0.1% | 4 |
 | 18 | Procfile | 0.03 | 0.0% | 2 |
 | 19 | PowerShell | 0.00 | 0.0% | 2 |
 | 20 | Batchfile | 0.00 | 0.0% | 1 |
@@ -36,7 +36,7 @@ Generated: 2026-10-09T11:46:26.856Z
 
 ## Per-Language Breakdown (Top Repos)
 
-### JavaScript — 25.7%
+### JavaScript — 25.6%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
@@ -45,6 +45,7 @@ Generated: 2026-10-09T11:46:26.856Z
 | Choudhry18/ReptilesRus | 13.69 | 20.5 KB |
 | Choudhry18/Bland_Web | 3 | 2.7 KB |
 | Choudhry18/WebTasks | 2.27 | 9.2 KB |
+| run-llama/liteparse | 0.01 | 29.3 KB |
 | Choudhry18/job_portal | 0.01 | 660 B |
 
 ### Python — 20.8%
@@ -58,6 +59,7 @@ Generated: 2026-10-09T11:46:26.856Z
 | Choudhry18/spotify-probability | 2 | 7.0 KB |
 | Choudhry18/Calendar_Schedular | 0.50 | 6.2 KB |
 | gperezs/StarcNet | 0.10 | 27.3 KB |
+| run-llama/liteparse | 0.08 | 213.0 KB |
 | dora-rs/dora | 0.07 | 273.4 KB |
 | astral-sh/uv | 0.05 | 347.2 KB |
 
@@ -71,7 +73,7 @@ Generated: 2026-10-09T11:46:26.856Z
 | gperezs/StarcNet | 0.89 | 240.9 KB |
 | astral-sh/uv | 0.00 | 2.1 KB |
 
-### Scala — 10.7%
+### Scala — 10.6%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
@@ -91,22 +93,24 @@ Generated: 2026-10-09T11:46:26.856Z
 |------|----------------------|-------|
 | Choudhry18/ReptilesRus | 17.31 | 26.0 KB |
 
-### C — 4.0%
+### C — 3.9%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | Choudhry18/SecureProgramming | 11 | 16.1 KB |
 | dora-rs/dora | 0.00 | 18.3 KB |
 | astral-sh/uv | 0.00 | 806 B |
+| run-llama/liteparse | 0.00 | 277 B |
 
-### Rust — 2.4%
+### Rust — 2.7%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
-| astral-sh/uv | 2.94 | 19.6 MB |
+| astral-sh/uv | 2.94 | 19.7 MB |
 | dora-rs/dora | 1.87 | 7.3 MB |
 | Choudhry18/rasterizer | 1 | 24.1 KB |
 | Choudhry18/wise-api | 1 | 6.7 KB |
+| run-llama/liteparse | 0.85 | 2.1 MB |
 
 ### Yacc — 2.2%
 
@@ -128,6 +132,7 @@ Generated: 2026-10-09T11:46:26.856Z
 | Choudhry18/StarClustering | 0.24 | 2.6 KB |
 | Choudhry18/British | 0.07 | 62 B |
 | dora-rs/dora | 0.06 | 223.7 KB |
+| run-llama/liteparse | 0.02 | 47.1 KB |
 | astral-sh/uv | 0.01 | 42.1 KB |
 | gperezs/StarcNet | 0.00 | 1.3 KB |
 
@@ -137,6 +142,7 @@ Generated: 2026-10-09T11:46:26.856Z
 |------|----------------------|-------|
 | Choudhry18/job_portal | 1.99 | 127.9 KB |
 | Choudhry18/mmiInterview | 1 | 553 B |
+| run-llama/liteparse | 0.04 | 89.5 KB |
 
 ### Java — 0.7%
 
@@ -144,7 +150,7 @@ Generated: 2026-10-09T11:46:26.856Z
 |------|----------------------|-------|
 | Choudhry18/Assignment-1 | 2 | 3.5 KB |
 
-### Ruby — 0.5%
+### Ruby — 0.4%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
@@ -162,6 +168,7 @@ Generated: 2026-10-09T11:46:26.856Z
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | Choudhry18/HVAC_Voice_Agent | 0.45 | 2.9 KB |
+| run-llama/liteparse | 0.00 | 4.6 KB |
 | dora-rs/dora | 0.00 | 3.7 KB |
 | astral-sh/uv | 0.00 | 5.4 KB |
 
@@ -172,6 +179,7 @@ Generated: 2026-10-09T11:46:26.856Z
 | Choudhry18/British | 0.23 | 212 B |
 | TU-CSCI2322-FL23/solver-dots-and-booxes | 0.11 | 248 B |
 | dora-rs/dora | 0.00 | 13.1 KB |
+| run-llama/liteparse | 0.00 | 888 B |
 
 ### Procfile — 0.0%
 
@@ -315,7 +323,7 @@ Generated: 2026-10-09T11:46:26.856Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 19.6 MB | 98.0% | 2.94 |
+| Rust | 19.7 MB | 98.0% | 2.94 |
 | Python | 347.2 KB | 1.7% | 0.05 |
 | Shell | 42.1 KB | 0.2% | 0.01 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
@@ -379,6 +387,19 @@ Generated: 2026-10-09T11:46:26.856Z
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
 | C++ | 25.8 KB | 100.0% | 1 |
+
+### run-llama/liteparse — 1 commits
+
+| Language | Bytes | % of Repo | Weighted Contributions |
+|----------|-------|-----------|----------------------|
+| TypeScript | 89.5 KB | 3.6% | 0.04 |
+| Dockerfile | 4.6 KB | 0.2% | 0.00 |
+| Python | 213.0 KB | 8.5% | 0.08 |
+| JavaScript | 29.3 KB | 1.2% | 0.01 |
+| Shell | 47.1 KB | 1.9% | 0.02 |
+| Makefile | 888 B | 0.0% | 0.00 |
+| Rust | 2.1 MB | 84.7% | 0.85 |
+| C | 277 B | 0.0% | 0.00 |
 
 ### Choudhry18/rasterizer — 1 commits
 
