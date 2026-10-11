@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-10-10T11:04:07.222Z
+Generated: 2026-10-11T11:20:40.349Z
 
 - **Repos analyzed:** 26
 - **Repos skipped** (no language data or all excluded): 5
@@ -60,8 +60,8 @@ Generated: 2026-10-10T11:04:07.222Z
 | Choudhry18/Calendar_Schedular | 0.50 | 6.2 KB |
 | gperezs/StarcNet | 0.10 | 27.3 KB |
 | run-llama/liteparse | 0.08 | 213.0 KB |
-| dora-rs/dora | 0.07 | 273.4 KB |
-| astral-sh/uv | 0.05 | 347.2 KB |
+| dora-rs/dora | 0.07 | 276.1 KB |
+| astral-sh/uv | 0.05 | 347.4 KB |
 
 ### Jupyter Notebook — 12.2%
 
@@ -107,7 +107,7 @@ Generated: 2026-10-10T11:04:07.222Z
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | astral-sh/uv | 2.94 | 19.7 MB |
-| dora-rs/dora | 1.87 | 7.3 MB |
+| dora-rs/dora | 1.87 | 7.4 MB |
 | Choudhry18/rasterizer | 1 | 24.1 KB |
 | Choudhry18/wise-api | 1 | 6.7 KB |
 | run-llama/liteparse | 0.85 | 2.1 MB |
@@ -324,7 +324,7 @@ Generated: 2026-10-10T11:04:07.222Z
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
 | Rust | 19.7 MB | 98.0% | 2.94 |
-| Python | 347.2 KB | 1.7% | 0.05 |
+| Python | 347.4 KB | 1.7% | 0.05 |
 | Shell | 42.1 KB | 0.2% | 0.01 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
 | PowerShell | 5.2 KB | 0.0% | 0.00 |
@@ -357,9 +357,9 @@ Generated: 2026-10-10T11:04:07.222Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 7.3 MB | 93.3% | 1.87 |
+| Rust | 7.4 MB | 93.3% | 1.87 |
 | C | 18.3 KB | 0.2% | 0.00 |
-| Python | 273.4 KB | 3.4% | 0.07 |
+| Python | 276.1 KB | 3.4% | 0.07 |
 | C++ | 6.2 KB | 0.1% | 0.00 |
 | Shell | 223.7 KB | 2.8% | 0.06 |
 | PowerShell | 1.6 KB | 0.0% | 0.00 |
