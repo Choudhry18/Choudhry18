@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-10-11T11:20:40.349Z
+Generated: 2026-10-12T12:58:22.379Z
 
 - **Repos analyzed:** 26
 - **Repos skipped** (no language data or all excluded): 5
@@ -17,7 +17,7 @@ Generated: 2026-10-11T11:20:40.349Z
 | 5 | Haskell | 27.57 | 9.9% | 2 |
 | 6 | EJS | 17.31 | 6.2% | 1 |
 | 7 | C | 11.00 | 3.9% | 4 |
-| 8 | Rust | 7.65 | 2.7% | 5 |
+| 8 | Rust | 7.66 | 2.7% | 5 |
 | 9 | Yacc | 6.03 | 2.2% | 1 |
 | 10 | Lex | 4.99 | 1.8% | 1 |
 | 11 | Shell | 3.14 | 1.1% | 7 |
@@ -107,7 +107,7 @@ Generated: 2026-10-11T11:20:40.349Z
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | astral-sh/uv | 2.94 | 19.7 MB |
-| dora-rs/dora | 1.87 | 7.4 MB |
+| dora-rs/dora | 1.87 | 7.5 MB |
 | Choudhry18/rasterizer | 1 | 24.1 KB |
 | Choudhry18/wise-api | 1 | 6.7 KB |
 | run-llama/liteparse | 0.85 | 2.1 MB |
@@ -131,7 +131,7 @@ Generated: 2026-10-11T11:20:40.349Z
 | Blobit-AI/homebrew-tap | 2.75 | 2.9 KB |
 | Choudhry18/StarClustering | 0.24 | 2.6 KB |
 | Choudhry18/British | 0.07 | 62 B |
-| dora-rs/dora | 0.06 | 223.7 KB |
+| dora-rs/dora | 0.05 | 223.7 KB |
 | run-llama/liteparse | 0.02 | 47.1 KB |
 | astral-sh/uv | 0.01 | 42.1 KB |
 | gperezs/StarcNet | 0.00 | 1.3 KB |
@@ -357,11 +357,11 @@ Generated: 2026-10-11T11:20:40.349Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 7.4 MB | 93.3% | 1.87 |
+| Rust | 7.5 MB | 93.4% | 1.87 |
 | C | 18.3 KB | 0.2% | 0.00 |
 | Python | 276.1 KB | 3.4% | 0.07 |
 | C++ | 6.2 KB | 0.1% | 0.00 |
-| Shell | 223.7 KB | 2.8% | 0.06 |
+| Shell | 223.7 KB | 2.7% | 0.05 |
 | PowerShell | 1.6 KB | 0.0% | 0.00 |
 | Nix | 1.4 KB | 0.0% | 0.00 |
 | Dockerfile | 3.7 KB | 0.0% | 0.00 |
