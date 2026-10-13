@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-10-12T12:58:22.379Z
+Generated: 2026-10-13T12:34:34.623Z
 
 - **Repos analyzed:** 26
 - **Repos skipped** (no language data or all excluded): 5
@@ -10,18 +10,18 @@ Generated: 2026-10-12T12:58:22.379Z
 
 | Rank | Language | Weighted Contributions | % | # Repos |
 |------|----------|----------------------|---|---------|
-| 1 | JavaScript | 71.39 | 25.6% | 7 |
-| 2 | Python | 58.04 | 20.8% | 10 |
+| 1 | JavaScript | 71.41 | 25.5% | 7 |
+| 2 | Python | 58.12 | 20.8% | 10 |
 | 3 | Jupyter Notebook | 34.05 | 12.2% | 5 |
 | 4 | Scala | 29.69 | 10.6% | 2 |
-| 5 | Haskell | 27.57 | 9.9% | 2 |
+| 5 | Haskell | 27.57 | 9.8% | 2 |
 | 6 | EJS | 17.31 | 6.2% | 1 |
 | 7 | C | 11.00 | 3.9% | 4 |
-| 8 | Rust | 7.66 | 2.7% | 5 |
+| 8 | Rust | 8.50 | 3.0% | 5 |
 | 9 | Yacc | 6.03 | 2.2% | 1 |
 | 10 | Lex | 4.99 | 1.8% | 1 |
-| 11 | Shell | 3.14 | 1.1% | 7 |
-| 12 | TypeScript | 3.03 | 1.1% | 3 |
+| 11 | Shell | 3.16 | 1.1% | 7 |
+| 12 | TypeScript | 3.06 | 1.1% | 3 |
 | 13 | Java | 2 | 0.7% | 1 |
 | 14 | Ruby | 1.25 | 0.4% | 1 |
 | 15 | C++ | 1.00 | 0.4% | 2 |
@@ -36,7 +36,7 @@ Generated: 2026-10-12T12:58:22.379Z
 
 ## Per-Language Breakdown (Top Repos)
 
-### JavaScript — 25.6%
+### JavaScript — 25.5%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
@@ -45,7 +45,7 @@ Generated: 2026-10-12T12:58:22.379Z
 | Choudhry18/ReptilesRus | 13.69 | 20.5 KB |
 | Choudhry18/Bland_Web | 3 | 2.7 KB |
 | Choudhry18/WebTasks | 2.27 | 9.2 KB |
-| run-llama/liteparse | 0.01 | 29.3 KB |
+| run-llama/liteparse | 0.02 | 30.0 KB |
 | Choudhry18/job_portal | 0.01 | 660 B |
 
 ### Python — 20.8%
@@ -58,10 +58,10 @@ Generated: 2026-10-12T12:58:22.379Z
 | Choudhry18/StarClustering | 6.10 | 64.9 KB |
 | Choudhry18/spotify-probability | 2 | 7.0 KB |
 | Choudhry18/Calendar_Schedular | 0.50 | 6.2 KB |
+| run-llama/liteparse | 0.17 | 213.0 KB |
 | gperezs/StarcNet | 0.10 | 27.3 KB |
-| run-llama/liteparse | 0.08 | 213.0 KB |
 | dora-rs/dora | 0.07 | 276.1 KB |
-| astral-sh/uv | 0.05 | 347.4 KB |
+| astral-sh/uv | 0.05 | 349.0 KB |
 
 ### Jupyter Notebook — 12.2%
 
@@ -80,7 +80,7 @@ Generated: 2026-10-12T12:58:22.379Z
 | TrinityUniversity/group-projects-levi-s_love_pursuit | 19.98 | 77.6 KB |
 | Choudhry18/WebTasks | 9.71 | 39.5 KB |
 
-### Haskell — 9.9%
+### Haskell — 9.8%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
@@ -99,18 +99,18 @@ Generated: 2026-10-12T12:58:22.379Z
 |------|----------------------|-------|
 | Choudhry18/SecureProgramming | 11 | 16.1 KB |
 | dora-rs/dora | 0.00 | 18.3 KB |
-| astral-sh/uv | 0.00 | 806 B |
 | run-llama/liteparse | 0.00 | 277 B |
+| astral-sh/uv | 0.00 | 806 B |
 
-### Rust — 2.7%
+### Rust — 3.0%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
-| astral-sh/uv | 2.94 | 19.7 MB |
+| astral-sh/uv | 2.94 | 19.8 MB |
 | dora-rs/dora | 1.87 | 7.5 MB |
+| run-llama/liteparse | 1.70 | 2.1 MB |
 | Choudhry18/rasterizer | 1 | 24.1 KB |
 | Choudhry18/wise-api | 1 | 6.7 KB |
-| run-llama/liteparse | 0.85 | 2.1 MB |
 
 ### Yacc — 2.2%
 
@@ -132,8 +132,8 @@ Generated: 2026-10-12T12:58:22.379Z
 | Choudhry18/StarClustering | 0.24 | 2.6 KB |
 | Choudhry18/British | 0.07 | 62 B |
 | dora-rs/dora | 0.05 | 223.7 KB |
-| run-llama/liteparse | 0.02 | 47.1 KB |
-| astral-sh/uv | 0.01 | 42.1 KB |
+| run-llama/liteparse | 0.04 | 47.1 KB |
+| astral-sh/uv | 0.01 | 42.0 KB |
 | gperezs/StarcNet | 0.00 | 1.3 KB |
 
 ### TypeScript — 1.1%
@@ -142,7 +142,7 @@ Generated: 2026-10-12T12:58:22.379Z
 |------|----------------------|-------|
 | Choudhry18/job_portal | 1.99 | 127.9 KB |
 | Choudhry18/mmiInterview | 1 | 553 B |
-| run-llama/liteparse | 0.04 | 89.5 KB |
+| run-llama/liteparse | 0.07 | 89.5 KB |
 
 ### Java — 0.7%
 
@@ -170,7 +170,7 @@ Generated: 2026-10-12T12:58:22.379Z
 | Choudhry18/HVAC_Voice_Agent | 0.45 | 2.9 KB |
 | run-llama/liteparse | 0.00 | 4.6 KB |
 | dora-rs/dora | 0.00 | 3.7 KB |
-| astral-sh/uv | 0.00 | 5.4 KB |
+| astral-sh/uv | 0.00 | 5.5 KB |
 
 ### Makefile — 0.1%
 
@@ -323,12 +323,12 @@ Generated: 2026-10-12T12:58:22.379Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 19.7 MB | 98.0% | 2.94 |
-| Python | 347.4 KB | 1.7% | 0.05 |
-| Shell | 42.1 KB | 0.2% | 0.01 |
+| Rust | 19.8 MB | 98.0% | 2.94 |
+| Python | 349.0 KB | 1.7% | 0.05 |
+| Shell | 42.0 KB | 0.2% | 0.01 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
 | PowerShell | 5.2 KB | 0.0% | 0.00 |
-| Dockerfile | 5.4 KB | 0.0% | 0.00 |
+| Dockerfile | 5.5 KB | 0.0% | 0.00 |
 | Jupyter Notebook | 2.1 KB | 0.0% | 0.00 |
 | Batchfile | 5.7 KB | 0.0% | 0.00 |
 | RenderScript | 2 B | 0.0% | 0.00 |
@@ -367,6 +367,19 @@ Generated: 2026-10-12T12:58:22.379Z
 | Dockerfile | 3.7 KB | 0.0% | 0.00 |
 | Makefile | 13.1 KB | 0.2% | 0.00 |
 
+### run-llama/liteparse — 2 commits
+
+| Language | Bytes | % of Repo | Weighted Contributions |
+|----------|-------|-----------|----------------------|
+| TypeScript | 89.5 KB | 3.5% | 0.07 |
+| Dockerfile | 4.6 KB | 0.2% | 0.00 |
+| Python | 213.0 KB | 8.4% | 0.17 |
+| JavaScript | 30.0 KB | 1.2% | 0.02 |
+| Shell | 47.1 KB | 1.9% | 0.04 |
+| Makefile | 888 B | 0.0% | 0.00 |
+| Rust | 2.1 MB | 84.8% | 1.70 |
+| C | 277 B | 0.0% | 0.00 |
+
 ### Choudhry18/job_portal — 2 commits
 
 | Language | Bytes | % of Repo | Weighted Contributions |
@@ -387,19 +400,6 @@ Generated: 2026-10-12T12:58:22.379Z
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
 | C++ | 25.8 KB | 100.0% | 1 |
-
-### run-llama/liteparse — 1 commits
-
-| Language | Bytes | % of Repo | Weighted Contributions |
-|----------|-------|-----------|----------------------|
-| TypeScript | 89.5 KB | 3.6% | 0.04 |
-| Dockerfile | 4.6 KB | 0.2% | 0.00 |
-| Python | 213.0 KB | 8.5% | 0.08 |
-| JavaScript | 29.3 KB | 1.2% | 0.01 |
-| Shell | 47.1 KB | 1.9% | 0.02 |
-| Makefile | 888 B | 0.0% | 0.00 |
-| Rust | 2.1 MB | 84.7% | 0.85 |
-| C | 277 B | 0.0% | 0.00 |
 
 ### Choudhry18/rasterizer — 1 commits
 
