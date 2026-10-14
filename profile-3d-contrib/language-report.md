@@ -1,42 +1,41 @@
 # Language Distribution Report
 
-Generated: 2026-10-13T12:34:34.623Z
+Generated: 2026-10-14T10:01:46.431Z
 
-- **Repos analyzed:** 26
-- **Repos skipped** (no language data or all excluded): 5
+- **Repos analyzed:** 25
+- **Repos skipped** (no language data or all excluded): 4
 - **Excluded languages:** html, scss, css
 
 ## Language Summary (Weighted by Commits)
 
 | Rank | Language | Weighted Contributions | % | # Repos |
 |------|----------|----------------------|---|---------|
-| 1 | JavaScript | 71.41 | 25.5% | 7 |
-| 2 | Python | 58.12 | 20.8% | 10 |
-| 3 | Jupyter Notebook | 34.05 | 12.2% | 5 |
-| 4 | Scala | 29.69 | 10.6% | 2 |
-| 5 | Haskell | 27.57 | 9.8% | 2 |
-| 6 | EJS | 17.31 | 6.2% | 1 |
-| 7 | C | 11.00 | 3.9% | 4 |
-| 8 | Rust | 8.50 | 3.0% | 5 |
+| 1 | JavaScript | 71.41 | 25.9% | 7 |
+| 2 | Python | 58.12 | 21.1% | 10 |
+| 3 | Jupyter Notebook | 34.05 | 12.3% | 5 |
+| 4 | Scala | 29.69 | 10.8% | 2 |
+| 5 | Haskell | 27.57 | 10.0% | 2 |
+| 6 | EJS | 17.31 | 6.3% | 1 |
+| 7 | C | 11.00 | 4.0% | 4 |
+| 8 | Rust | 8.50 | 3.1% | 5 |
 | 9 | Yacc | 6.03 | 2.2% | 1 |
 | 10 | Lex | 4.99 | 1.8% | 1 |
-| 11 | Shell | 3.16 | 1.1% | 7 |
-| 12 | TypeScript | 3.06 | 1.1% | 3 |
-| 13 | Java | 2 | 0.7% | 1 |
-| 14 | Ruby | 1.25 | 0.4% | 1 |
-| 15 | C++ | 1.00 | 0.4% | 2 |
-| 16 | Dockerfile | 0.45 | 0.2% | 4 |
-| 17 | Makefile | 0.35 | 0.1% | 4 |
-| 18 | Procfile | 0.03 | 0.0% | 2 |
-| 19 | PowerShell | 0.00 | 0.0% | 2 |
-| 20 | Batchfile | 0.00 | 0.0% | 1 |
-| 21 | Nushell | 0.00 | 0.0% | 1 |
-| 22 | Nix | 0.00 | 0.0% | 1 |
-| 23 | RenderScript | 0.00 | 0.0% | 1 |
+| 11 | TypeScript | 3.06 | 1.1% | 3 |
+| 12 | Java | 2 | 0.7% | 1 |
+| 13 | C++ | 1.00 | 0.4% | 2 |
+| 14 | Dockerfile | 0.45 | 0.2% | 4 |
+| 15 | Shell | 0.42 | 0.2% | 6 |
+| 16 | Makefile | 0.35 | 0.1% | 4 |
+| 17 | Procfile | 0.03 | 0.0% | 2 |
+| 18 | PowerShell | 0.00 | 0.0% | 2 |
+| 19 | Batchfile | 0.00 | 0.0% | 1 |
+| 20 | Nushell | 0.00 | 0.0% | 1 |
+| 21 | Nix | 0.00 | 0.0% | 1 |
+| 22 | RenderScript | 0.00 | 0.0% | 1 |
 
 ## Per-Language Breakdown (Top Repos)
 
-### JavaScript — 25.5%
+### JavaScript — 25.9%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
@@ -48,7 +47,7 @@ Generated: 2026-10-13T12:34:34.623Z
 | run-llama/liteparse | 0.02 | 30.0 KB |
 | Choudhry18/job_portal | 0.01 | 660 B |
 
-### Python — 20.8%
+### Python — 21.1%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
@@ -61,9 +60,9 @@ Generated: 2026-10-13T12:34:34.623Z
 | run-llama/liteparse | 0.17 | 213.0 KB |
 | gperezs/StarcNet | 0.10 | 27.3 KB |
 | dora-rs/dora | 0.07 | 276.1 KB |
-| astral-sh/uv | 0.05 | 349.0 KB |
+| astral-sh/uv | 0.05 | 349.1 KB |
 
-### Jupyter Notebook — 12.2%
+### Jupyter Notebook — 12.3%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
@@ -73,27 +72,27 @@ Generated: 2026-10-13T12:34:34.623Z
 | gperezs/StarcNet | 0.89 | 240.9 KB |
 | astral-sh/uv | 0.00 | 2.1 KB |
 
-### Scala — 10.6%
+### Scala — 10.8%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | TrinityUniversity/group-projects-levi-s_love_pursuit | 19.98 | 77.6 KB |
 | Choudhry18/WebTasks | 9.71 | 39.5 KB |
 
-### Haskell — 9.8%
+### Haskell — 10.0%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | Choudhry18/British | 17.68 | 15.7 KB |
 | TU-CSCI2322-FL23/solver-dots-and-booxes | 9.89 | 21.0 KB |
 
-### EJS — 6.2%
+### EJS — 6.3%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | Choudhry18/ReptilesRus | 17.31 | 26.0 KB |
 
-### C — 3.9%
+### C — 4.0%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
@@ -102,7 +101,7 @@ Generated: 2026-10-13T12:34:34.623Z
 | run-llama/liteparse | 0.00 | 277 B |
 | astral-sh/uv | 0.00 | 806 B |
 
-### Rust — 3.0%
+### Rust — 3.1%
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
@@ -124,18 +123,6 @@ Generated: 2026-10-13T12:34:34.623Z
 |------|----------------------|-------|
 | Choudhry18/British | 4.99 | 4.4 KB |
 
-### Shell — 1.1%
-
-| Repo | Weighted Contributions | Bytes |
-|------|----------------------|-------|
-| Blobit-AI/homebrew-tap | 2.75 | 2.9 KB |
-| Choudhry18/StarClustering | 0.24 | 2.6 KB |
-| Choudhry18/British | 0.07 | 62 B |
-| dora-rs/dora | 0.05 | 223.7 KB |
-| run-llama/liteparse | 0.04 | 47.1 KB |
-| astral-sh/uv | 0.01 | 42.0 KB |
-| gperezs/StarcNet | 0.00 | 1.3 KB |
-
 ### TypeScript — 1.1%
 
 | Repo | Weighted Contributions | Bytes |
@@ -149,12 +136,6 @@ Generated: 2026-10-13T12:34:34.623Z
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | Choudhry18/Assignment-1 | 2 | 3.5 KB |
-
-### Ruby — 0.4%
-
-| Repo | Weighted Contributions | Bytes |
-|------|----------------------|-------|
-| Blobit-AI/homebrew-tap | 1.25 | 1.3 KB |
 
 ### C++ — 0.4%
 
@@ -171,6 +152,17 @@ Generated: 2026-10-13T12:34:34.623Z
 | run-llama/liteparse | 0.00 | 4.6 KB |
 | dora-rs/dora | 0.00 | 3.7 KB |
 | astral-sh/uv | 0.00 | 5.5 KB |
+
+### Shell — 0.2%
+
+| Repo | Weighted Contributions | Bytes |
+|------|----------------------|-------|
+| Choudhry18/StarClustering | 0.24 | 2.6 KB |
+| Choudhry18/British | 0.07 | 62 B |
+| dora-rs/dora | 0.05 | 223.7 KB |
+| run-llama/liteparse | 0.04 | 47.1 KB |
+| astral-sh/uv | 0.01 | 42.0 KB |
+| gperezs/StarcNet | 0.00 | 1.3 KB |
 
 ### Makefile — 0.1%
 
@@ -306,13 +298,6 @@ Generated: 2026-10-13T12:34:34.623Z
 |----------|-------|-----------|----------------------|
 | Jupyter Notebook | 1.3 MB | 100.0% | 9 |
 
-### Blobit-AI/homebrew-tap — 4 commits
-
-| Language | Bytes | % of Repo | Weighted Contributions |
-|----------|-------|-----------|----------------------|
-| Ruby | 1.3 KB | 31.4% | 1.25 |
-| Shell | 2.9 KB | 68.6% | 2.75 |
-
 ### Choudhry18/Bland_Web — 3 commits
 
 | Language | Bytes | % of Repo | Weighted Contributions |
@@ -324,7 +309,7 @@ Generated: 2026-10-13T12:34:34.623Z
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
 | Rust | 19.8 MB | 98.0% | 2.94 |
-| Python | 349.0 KB | 1.7% | 0.05 |
+| Python | 349.1 KB | 1.7% | 0.05 |
 | Shell | 42.0 KB | 0.2% | 0.01 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
 | PowerShell | 5.2 KB | 0.0% | 0.00 |
