@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-10-16T09:37:22.960Z
+Generated: 2026-10-17T09:09:22.002Z
 
 - **Repos analyzed:** 25
 - **Repos skipped** (no language data or all excluded): 4
@@ -24,7 +24,7 @@ Generated: 2026-10-16T09:37:22.960Z
 | 12 | Java | 2 | 0.7% | 1 |
 | 13 | C++ | 1.00 | 0.4% | 2 |
 | 14 | Dockerfile | 0.45 | 0.2% | 4 |
-| 15 | Shell | 0.42 | 0.2% | 6 |
+| 15 | Shell | 0.41 | 0.2% | 6 |
 | 16 | Makefile | 0.35 | 0.1% | 4 |
 | 17 | Procfile | 0.03 | 0.0% | 2 |
 | 18 | PowerShell | 0.00 | 0.0% | 2 |
@@ -105,7 +105,7 @@ Generated: 2026-10-16T09:37:22.960Z
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
-| astral-sh/uv | 2.94 | 19.8 MB |
+| astral-sh/uv | 2.94 | 19.9 MB |
 | dora-rs/dora | 1.87 | 7.5 MB |
 | run-llama/liteparse | 1.70 | 2.1 MB |
 | Choudhry18/rasterizer | 1 | 24.1 KB |
@@ -308,7 +308,7 @@ Generated: 2026-10-16T09:37:22.960Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 19.8 MB | 98.0% | 2.94 |
+| Rust | 19.9 MB | 98.0% | 2.94 |
 | Python | 349.1 KB | 1.7% | 0.05 |
 | Shell | 42.0 KB | 0.2% | 0.01 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
@@ -344,7 +344,7 @@ Generated: 2026-10-16T09:37:22.960Z
 |----------|-------|-----------|----------------------|
 | Rust | 7.5 MB | 93.4% | 1.87 |
 | C | 18.3 KB | 0.2% | 0.00 |
-| Python | 276.1 KB | 3.4% | 0.07 |
+| Python | 276.1 KB | 3.3% | 0.07 |
 | C++ | 6.2 KB | 0.1% | 0.00 |
 | Shell | 223.7 KB | 2.7% | 0.05 |
 | PowerShell | 1.6 KB | 0.0% | 0.00 |
