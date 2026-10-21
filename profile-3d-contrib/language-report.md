@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-10-20T09:55:42.055Z
+Generated: 2026-10-21T09:59:29.625Z
 
 - **Repos analyzed:** 25
 - **Repos skipped** (no language data or all excluded): 4
@@ -60,7 +60,7 @@ Generated: 2026-10-20T09:55:42.055Z
 | run-llama/liteparse | 0.17 | 213.0 KB |
 | gperezs/StarcNet | 0.10 | 27.3 KB |
 | dora-rs/dora | 0.07 | 276.1 KB |
-| astral-sh/uv | 0.05 | 349.1 KB |
+| astral-sh/uv | 0.05 | 349.5 KB |
 
 ### Jupyter Notebook — 12.3%
 
@@ -97,7 +97,7 @@ Generated: 2026-10-20T09:55:42.055Z
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | Choudhry18/SecureProgramming | 11 | 16.1 KB |
-| dora-rs/dora | 0.00 | 18.3 KB |
+| dora-rs/dora | 0.00 | 18.9 KB |
 | run-llama/liteparse | 0.00 | 277 B |
 | astral-sh/uv | 0.00 | 806 B |
 
@@ -105,8 +105,8 @@ Generated: 2026-10-20T09:55:42.055Z
 
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
-| astral-sh/uv | 2.94 | 20.0 MB |
-| dora-rs/dora | 1.87 | 7.5 MB |
+| astral-sh/uv | 2.94 | 20.1 MB |
+| dora-rs/dora | 1.87 | 7.6 MB |
 | run-llama/liteparse | 1.70 | 2.1 MB |
 | Choudhry18/rasterizer | 1 | 24.1 KB |
 | Choudhry18/wise-api | 1 | 6.7 KB |
@@ -308,8 +308,8 @@ Generated: 2026-10-20T09:55:42.055Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 20.0 MB | 98.0% | 2.94 |
-| Python | 349.1 KB | 1.7% | 0.05 |
+| Rust | 20.1 MB | 98.0% | 2.94 |
+| Python | 349.5 KB | 1.7% | 0.05 |
 | Shell | 42.0 KB | 0.2% | 0.01 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
 | PowerShell | 5.2 KB | 0.0% | 0.00 |
@@ -342,8 +342,8 @@ Generated: 2026-10-20T09:55:42.055Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 7.5 MB | 93.4% | 1.87 |
-| C | 18.3 KB | 0.2% | 0.00 |
+| Rust | 7.6 MB | 93.4% | 1.87 |
+| C | 18.9 KB | 0.2% | 0.00 |
 | Python | 276.1 KB | 3.3% | 0.07 |
 | C++ | 6.2 KB | 0.1% | 0.00 |
 | Shell | 223.7 KB | 2.7% | 0.05 |
