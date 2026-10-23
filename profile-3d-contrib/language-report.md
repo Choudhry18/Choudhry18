@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-10-22T09:59:38.699Z
+Generated: 2026-10-23T09:54:26.907Z
 
 - **Repos analyzed:** 25
 - **Repos skipped** (no language data or all excluded): 4
@@ -10,14 +10,14 @@ Generated: 2026-10-22T09:59:38.699Z
 
 | Rank | Language | Weighted Contributions | % | # Repos |
 |------|----------|----------------------|---|---------|
-| 1 | JavaScript | 71.40 | 25.9% | 7 |
+| 1 | JavaScript | 71.41 | 25.9% | 7 |
 | 2 | Python | 58.12 | 21.1% | 10 |
 | 3 | Jupyter Notebook | 34.05 | 12.3% | 5 |
 | 4 | Scala | 29.69 | 10.8% | 2 |
 | 5 | Haskell | 27.57 | 10.0% | 2 |
 | 6 | EJS | 17.31 | 6.3% | 1 |
 | 7 | C | 11.00 | 4.0% | 4 |
-| 8 | Rust | 8.51 | 3.1% | 5 |
+| 8 | Rust | 8.50 | 3.1% | 5 |
 | 9 | Yacc | 6.03 | 2.2% | 1 |
 | 10 | Lex | 4.99 | 1.8% | 1 |
 | 11 | TypeScript | 3.06 | 1.1% | 3 |
@@ -44,7 +44,7 @@ Generated: 2026-10-22T09:59:38.699Z
 | Choudhry18/ReptilesRus | 13.69 | 20.5 KB |
 | Choudhry18/Bland_Web | 3 | 2.7 KB |
 | Choudhry18/WebTasks | 2.27 | 9.2 KB |
-| run-llama/liteparse | 0.02 | 30.0 KB |
+| run-llama/liteparse | 0.03 | 34.5 KB |
 | Choudhry18/job_portal | 0.01 | 660 B |
 
 ### Python — 21.1%
@@ -107,7 +107,7 @@ Generated: 2026-10-22T09:59:38.699Z
 |------|----------------------|-------|
 | astral-sh/uv | 2.94 | 20.2 MB |
 | dora-rs/dora | 1.87 | 7.6 MB |
-| run-llama/liteparse | 1.70 | 2.2 MB |
+| run-llama/liteparse | 1.69 | 2.2 MB |
 | Choudhry18/rasterizer | 1 | 24.1 KB |
 | Choudhry18/wise-api | 1 | 6.7 KB |
 
@@ -129,7 +129,7 @@ Generated: 2026-10-22T09:59:38.699Z
 |------|----------------------|-------|
 | Choudhry18/job_portal | 1.99 | 127.9 KB |
 | Choudhry18/mmiInterview | 1 | 553 B |
-| run-llama/liteparse | 0.07 | 89.5 KB |
+| run-llama/liteparse | 0.07 | 92.5 KB |
 
 ### Java — 0.7%
 
@@ -161,7 +161,7 @@ Generated: 2026-10-22T09:59:38.699Z
 | Choudhry18/British | 0.07 | 62 B |
 | dora-rs/dora | 0.05 | 223.7 KB |
 | run-llama/liteparse | 0.04 | 47.1 KB |
-| astral-sh/uv | 0.01 | 42.0 KB |
+| astral-sh/uv | 0.01 | 40.4 KB |
 | gperezs/StarcNet | 0.00 | 1.3 KB |
 
 ### Makefile — 0.1%
@@ -310,7 +310,7 @@ Generated: 2026-10-22T09:59:38.699Z
 |----------|-------|-----------|----------------------|
 | Rust | 20.2 MB | 98.0% | 2.94 |
 | Python | 348.5 KB | 1.7% | 0.05 |
-| Shell | 42.0 KB | 0.2% | 0.01 |
+| Shell | 40.4 KB | 0.2% | 0.01 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
 | PowerShell | 5.2 KB | 0.0% | 0.00 |
 | Dockerfile | 5.9 KB | 0.0% | 0.00 |
@@ -342,7 +342,7 @@ Generated: 2026-10-22T09:59:38.699Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 7.6 MB | 93.4% | 1.87 |
+| Rust | 7.6 MB | 93.5% | 1.87 |
 | C | 18.9 KB | 0.2% | 0.00 |
 | Python | 276.1 KB | 3.3% | 0.07 |
 | C++ | 6.2 KB | 0.1% | 0.00 |
@@ -356,13 +356,13 @@ Generated: 2026-10-22T09:59:38.699Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| TypeScript | 89.5 KB | 3.4% | 0.07 |
+| TypeScript | 92.5 KB | 3.5% | 0.07 |
 | Dockerfile | 5.3 KB | 0.2% | 0.00 |
 | Python | 223.1 KB | 8.5% | 0.17 |
-| JavaScript | 30.0 KB | 1.1% | 0.02 |
+| JavaScript | 34.5 KB | 1.3% | 0.03 |
 | Shell | 47.1 KB | 1.8% | 0.04 |
 | Makefile | 888 B | 0.0% | 0.00 |
-| Rust | 2.2 MB | 84.9% | 1.70 |
+| Rust | 2.2 MB | 84.7% | 1.69 |
 | C | 277 B | 0.0% | 0.00 |
 
 ### Choudhry18/job_portal — 2 commits
