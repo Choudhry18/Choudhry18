@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-10-24T09:23:51.557Z
+Generated: 2026-10-25T09:42:37.281Z
 
 - **Repos analyzed:** 25
 - **Repos skipped** (no language data or all excluded): 4
@@ -17,7 +17,7 @@ Generated: 2026-10-24T09:23:51.557Z
 | 5 | Haskell | 27.57 | 10.0% | 2 |
 | 6 | EJS | 17.31 | 6.3% | 1 |
 | 7 | C | 11.00 | 4.0% | 4 |
-| 8 | Rust | 8.50 | 3.1% | 5 |
+| 8 | Rust | 8.51 | 3.1% | 5 |
 | 9 | Yacc | 6.03 | 2.2% | 1 |
 | 10 | Lex | 4.99 | 1.8% | 1 |
 | 11 | TypeScript | 3.06 | 1.1% | 3 |
@@ -59,7 +59,7 @@ Generated: 2026-10-24T09:23:51.557Z
 | Choudhry18/Calendar_Schedular | 0.50 | 6.2 KB |
 | run-llama/liteparse | 0.17 | 223.1 KB |
 | gperezs/StarcNet | 0.10 | 27.3 KB |
-| dora-rs/dora | 0.07 | 276.1 KB |
+| dora-rs/dora | 0.07 | 276.5 KB |
 | astral-sh/uv | 0.05 | 348.5 KB |
 
 ### Jupyter Notebook — 12.3%
@@ -106,7 +106,7 @@ Generated: 2026-10-24T09:23:51.557Z
 | Repo | Weighted Contributions | Bytes |
 |------|----------------------|-------|
 | astral-sh/uv | 2.94 | 20.2 MB |
-| dora-rs/dora | 1.87 | 7.6 MB |
+| dora-rs/dora | 1.87 | 7.7 MB |
 | run-llama/liteparse | 1.69 | 2.2 MB |
 | Choudhry18/rasterizer | 1 | 24.1 KB |
 | Choudhry18/wise-api | 1 | 6.7 KB |
@@ -342,9 +342,9 @@ Generated: 2026-10-24T09:23:51.557Z
 
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
-| Rust | 7.6 MB | 93.5% | 1.87 |
+| Rust | 7.7 MB | 93.5% | 1.87 |
 | C | 18.9 KB | 0.2% | 0.00 |
-| Python | 276.1 KB | 3.3% | 0.07 |
+| Python | 276.5 KB | 3.3% | 0.07 |
 | C++ | 6.2 KB | 0.1% | 0.00 |
 | Shell | 223.7 KB | 2.7% | 0.05 |
 | PowerShell | 1.6 KB | 0.0% | 0.00 |
