@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-10-29T11:24:51.373Z
+Generated: 2026-10-30T11:16:51.198Z
 
 - **Repos analyzed:** 25
 - **Repos skipped** (no language data or all excluded): 4
@@ -17,7 +17,7 @@ Generated: 2026-10-29T11:24:51.373Z
 | 5 | Haskell | 27.57 | 10.0% | 2 |
 | 6 | EJS | 17.31 | 6.3% | 1 |
 | 7 | C | 11.00 | 4.0% | 4 |
-| 8 | Rust | 8.51 | 3.1% | 5 |
+| 8 | Rust | 8.50 | 3.1% | 5 |
 | 9 | Yacc | 6.03 | 2.2% | 1 |
 | 10 | Lex | 4.99 | 1.8% | 1 |
 | 11 | TypeScript | 3.06 | 1.1% | 3 |
@@ -60,7 +60,7 @@ Generated: 2026-10-29T11:24:51.373Z
 | run-llama/liteparse | 0.17 | 223.1 KB |
 | gperezs/StarcNet | 0.10 | 27.3 KB |
 | dora-rs/dora | 0.07 | 284.6 KB |
-| astral-sh/uv | 0.05 | 351.1 KB |
+| astral-sh/uv | 0.05 | 359.3 KB |
 
 ### Jupyter Notebook — 12.3%
 
@@ -309,7 +309,7 @@ Generated: 2026-10-29T11:24:51.373Z
 | Language | Bytes | % of Repo | Weighted Contributions |
 |----------|-------|-----------|----------------------|
 | Rust | 20.2 MB | 98.0% | 2.94 |
-| Python | 351.1 KB | 1.7% | 0.05 |
+| Python | 359.3 KB | 1.7% | 0.05 |
 | Shell | 40.5 KB | 0.2% | 0.01 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
 | PowerShell | 5.2 KB | 0.0% | 0.00 |
