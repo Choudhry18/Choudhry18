@@ -1,6 +1,6 @@
 # Language Distribution Report
 
-Generated: 2026-11-02T13:19:24.428Z
+Generated: 2026-11-03T12:42:41.983Z
 
 - **Repos analyzed:** 25
 - **Repos skipped** (no language data or all excluded): 4
@@ -161,7 +161,7 @@ Generated: 2026-11-02T13:19:24.428Z
 | Choudhry18/British | 0.07 | 62 B |
 | dora-rs/dora | 0.05 | 225.8 KB |
 | run-llama/liteparse | 0.04 | 47.1 KB |
-| astral-sh/uv | 0.01 | 40.5 KB |
+| astral-sh/uv | 0.01 | 41.0 KB |
 | gperezs/StarcNet | 0.00 | 1.3 KB |
 
 ### Makefile — 0.1%
@@ -310,7 +310,7 @@ Generated: 2026-11-02T13:19:24.428Z
 |----------|-------|-----------|----------------------|
 | Rust | 20.2 MB | 98.0% | 2.94 |
 | Python | 359.3 KB | 1.7% | 0.05 |
-| Shell | 40.5 KB | 0.2% | 0.01 |
+| Shell | 41.0 KB | 0.2% | 0.01 |
 | Nushell | 3.9 KB | 0.0% | 0.00 |
 | PowerShell | 5.2 KB | 0.0% | 0.00 |
 | Dockerfile | 5.9 KB | 0.0% | 0.00 |
