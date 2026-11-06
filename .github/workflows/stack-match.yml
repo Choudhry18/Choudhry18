@@ -1,0 +1,27 @@
+name: Refresh Stack Match
+
+on:
+  schedule:
+    - cron: '19 16 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stack-match-refresh
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: python3 generate-stack-match.py
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - run: |
+          git add stack-match.svg
+          if git diff --cached --quiet; then exit 0; fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Refresh Stack Match board'
+          git pull --rebase
+          git push
