@@ -1,4 +1,4 @@
-"""Render yearly profile boards from public GitHub commit activity."""
+"""Render the profile board from combined public and private commit totals."""
 
 from collections import Counter
 from datetime import datetime, timezone
@@ -10,20 +10,90 @@ import subprocess
 from urllib.request import urlopen
 from xml.etree import ElementTree as ET
 
+EXCLUDED_LANGUAGES = {"HTML", "CSS", "SCSS", "EJS", "Jupyter Notebook"}
+
+
+def github_json(*arguments, payload=None):
+    response = subprocess.run(
+        ["gh", "api", *arguments],
+        input=json.dumps(payload) if payload is not None else None,
+        capture_output=True,
+        text=True,
+    )
+    if response.returncode:
+        raise SystemExit("GitHub could not return contribution data. Keeping the existing board.")
+    return json.loads(response.stdout)
+
+
+def graphql(query, **variables):
+    return github_json("graphql", "--input", "-", payload={"query": query, "variables": variables})["data"]
+
+
 def query_user(fields):
-    query = 'query { user(login: "Choudhry18") {' + fields + '} }'
-    response = subprocess.check_output(["gh", "api", "graphql", "-f", f"query={query}"], text=True)
-    return json.loads(response)["data"]["user"]
+    return graphql('query { user(login: "Choudhry18") {' + fields + '} }')["user"]
+
+
+def private_activity(windows):
+    # The contribution collection can hide private rows even when repo history is accessible.
+    viewer = graphql("query { viewer { id login } }")["viewer"]
+    if viewer["login"].casefold() != "choudhry18":
+        raise SystemExit("Use Abdullah's GitHub sign-in to refresh private contribution totals.")
+    pages = github_json(
+        "--paginate", "--slurp",
+        "user/repos?visibility=private&affiliation=owner%2Ccollaborator%2Corganization_member&per_page=100",
+    )
+    ids = [
+        repo["node_id"] for page in pages for repo in page
+        if repo["visibility"] == "private" and not repo["fork"]
+    ]
+    history = "\n".join(
+        f'y{year}: history(author: {{id: $author}}, since: "{start}", until: "{end}") {{ totalCount }}'
+        for year, (start, end) in windows.items()
+    )
+    query = f"""
+      query($ids: [ID!]!, $author: ID!) {{
+        nodes(ids: $ids) {{
+          ... on Repository {{
+            visibility
+            primaryLanguage {{ name }}
+            defaultBranchRef {{ target {{ ... on Commit {{ {history} }} }} }}
+          }}
+        }}
+      }}
+    """
+    by_year = {year: Counter() for year in windows}
+    for offset in range(0, len(ids), 20):
+        repos = graphql(query, ids=ids[offset:offset + 20], author=viewer["id"])["nodes"]
+        for repo in repos:
+            if repo is None:
+                raise SystemExit("A private repository became unavailable. Keeping the existing board.")
+            language = (repo["primaryLanguage"] or {}).get("name")
+            branch = repo["defaultBranchRef"]
+            if repo["visibility"] != "PRIVATE" or not branch or not language or language in EXCLUDED_LANGUAGES:
+                continue
+            for year in windows:
+                count = branch["target"][f"y{year}"]["totalCount"]
+                if count:
+                    by_year[year][language] += count
+    if not any(by_year.values()):
+        raise SystemExit("No private commit totals were available. Keeping the existing board.")
+    return by_year
 
 
 def yearly_activity():
     now = datetime.now(timezone.utc)
     years = query_user("contributionsCollection { contributionYears }")["contributionsCollection"]["contributionYears"]
+    windows = {
+        year: (
+            f"{year}-01-01T00:00:00Z",
+            now.strftime("%Y-%m-%dT%H:%M:%SZ") if year == now.year else f"{year}-12-31T23:59:59Z",
+        )
+        for year in sorted({*years, now.year}, reverse=True)
+    }
     fields = []
-    for year in sorted(years, reverse=True):
-        end = now.strftime("%Y-%m-%dT%H:%M:%SZ") if year == now.year else f"{year}-12-31T23:59:59Z"
+    for year, (start, end) in windows.items():
         fields.append(f"""
-          y{year}: contributionsCollection(from: "{year}-01-01T00:00:00Z", to: "{end}") {{
+          y{year}: contributionsCollection(from: "{start}", to: "{end}") {{
             commitContributionsByRepository(maxRepositories: 100) {{
               repository {{ visibility primaryLanguage {{ name }} }}
               contributions {{ totalCount }}
@@ -31,20 +101,16 @@ def yearly_activity():
           }}
         """)
 
+    by_year = private_activity(windows)
     for alias, collection in query_user("".join(fields)).items():
-        activity = Counter()
+        year = int(alias[1:])
         for entry in collection["commitContributionsByRepository"]:
             repo = entry["repository"]
-            language = repo["primaryLanguage"]
-            if (
-                repo["visibility"] == "PUBLIC"
-                and language
-                and language["name"] not in {"HTML", "CSS", "SCSS", "EJS", "Jupyter Notebook"}
-            ):
-                # The contribution records are grouped by repository and day.
-                activity[language["name"]] += entry["contributions"]["totalCount"]
-        if activity:
-            yield int(alias[1:]), activity
+            language = (repo["primaryLanguage"] or {}).get("name")
+            if repo["visibility"] == "PUBLIC" and language and language not in EXCLUDED_LANGUAGES:
+                by_year[year][language] += entry["contributions"]["totalCount"]
+        if by_year[year]:
+            yield year, by_year[year]
 
 
 icons = {
@@ -203,10 +269,11 @@ def render_board(languages):
 
 def main():
     activity = Counter()
-    for _, year_activity in yearly_activity():
+    years = dict(yearly_activity())
+    for year_activity in years.values():
         activity.update(year_activity)
     if not activity:
-        raise SystemExit("No public language activity returned. Keeping the existing board.")
+        raise SystemExit("No language activity returned. Keeping the existing board.")
 
     languages = sorted(activity, key=lambda name: (-activity[name], name))[:5]
     if "Rust" in activity and "Rust" not in languages:
@@ -219,10 +286,11 @@ def main():
         existing.unlink()
     names = ", ".join(languages)
     readme = (
-        f"[![Watch a match clear, then click to play Stack Match. Tiles: {names}](stack-match/overview.svg?v=cascade-rust)]"
+        f"[![Watch a match clear, then click to play Stack Match. Tiles: {names}](stack-match/overview.svg?v=combined)]"
         "(https://choudhry18.github.io/stack-match/)\n"
     )
     (root / "README.md").write_text(readme, encoding="utf-8")
+    return years
 
 
 if __name__ == "__main__":
