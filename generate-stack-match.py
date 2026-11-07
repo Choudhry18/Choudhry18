@@ -99,7 +99,13 @@ def render_board(languages):
     </g>''')
 
     # Final arrangement. The center pair in rows one and two swap into this match.
-    layout = (2, 1, 2, 0, 3, 1, 1, 0, 0, 0, 2, 4, 0, 2, 1, 2, 1, 0)
+    layout = (
+        2, 1, 2, 0, 3, 1,
+        1, 0, 0, 0, 2, 4,
+        0, 2, 1, 2, 1, 0,
+        3, 4, 0, 3, 4, 2,
+        2, 0, 4, 2, 0, 3,
+    )
     tiles = []
     for index, rank in enumerate(layout):
         row, column = divmod(index, 6)
@@ -110,7 +116,7 @@ def render_board(languages):
                 rank = 1
             else:
                 continue
-        delay = 60 * column + 110 * (2 - row)
+        delay = 60 * column + 85 * (4 - row)
         movement = ""
         if len(languages) > 1:
             if index == 2:
@@ -126,17 +132,17 @@ def render_board(languages):
 
     winner = escape(languages[0])
     names = escape(", ".join(languages))
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="282" height="150" viewBox="0 0 282 150" role="img" aria-labelledby="title description">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="360" height="304" viewBox="0 0 282 238" role="img" aria-labelledby="title description">
   <title id="title">Stack Match</title>
-  <desc id="description">Tiles for {names} fall into place and three {winner} tiles match.</desc>
+  <desc id="description">A six-column, five-row board with tiles for {names}. Three {winner} tiles match.</desc>
   <style>
     .surface {{ fill: #f6f8fa; stroke: #d1d9e0; }}
     .drop {{ animation: drop .62s cubic-bezier(.24,.78,.27,1) both; }}
-    .swap-down {{ animation: swap-down .36s 1.16s ease-in-out both; }}
-    .swap-up {{ animation: swap-up .36s 1.16s ease-in-out both; }}
-    .match {{ animation: reveal 1.75s both; }}
+    .swap-down {{ animation: swap-down .36s 1.28s ease-in-out both; }}
+    .swap-up {{ animation: swap-up .36s 1.28s ease-in-out both; }}
+    .match {{ animation: reveal .22s 1.66s both; }}
     @keyframes drop {{
-      0% {{ transform: translateY(-140px); opacity: 0; }}
+      0% {{ transform: translateY(-228px); opacity: 0; }}
       15% {{ opacity: 1; }}
       82% {{ transform: translateY(3px); }}
       100% {{ transform: translateY(0); }}
@@ -149,7 +155,7 @@ def render_board(languages):
       0% {{ transform: translateY(-44px); }}
       50% {{ transform: translate(12px, -22px); }}
     }}
-    @keyframes reveal {{ 0%, 87% {{ opacity: 0; }} 100% {{ opacity: 1; }} }}
+    @keyframes reveal {{ from {{ opacity: 0; }} }}
     @media (prefers-color-scheme: dark) {{
       .surface {{ fill: #151b23; stroke: #3d444d; }}
     }}
@@ -158,9 +164,9 @@ def render_board(languages):
     }}
   </style>
   <defs>{''.join(definitions)}
-    <clipPath id="board"><rect x="6" y="6" width="270" height="138" rx="6"/></clipPath>
+    <clipPath id="board"><rect x="6" y="6" width="270" height="226" rx="6"/></clipPath>
   </defs>
-  <rect class="surface" x=".5" y=".5" width="281" height="149" rx="10"/>
+  <rect class="surface" x=".5" y=".5" width="281" height="237" rx="10"/>
   <g clip-path="url(#board)">{''.join(tiles)}
     <rect class="match" x="55" y="55" width="128" height="40" rx="10"
       fill="none" stroke="#2da44e" stroke-width="2"/>
