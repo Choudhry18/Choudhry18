@@ -98,7 +98,7 @@ def render_board(languages):
       {mark}
     </g>''')
 
-    # Final arrangement. The center pair in rows one and two swap into this match.
+    # Arrange the board immediately after the swap, before the match clears.
     layout = (
         2, 1, 2, 0, 3, 1,
         1, 0, 0, 0, 2, 4,
@@ -106,6 +106,7 @@ def render_board(languages):
         3, 4, 0, 3, 4, 2,
         2, 0, 4, 2, 0, 3,
     )
+    after_match = {1: "settle", 2: "settle", 3: "settle", 7: "clear", 8: "clear", 9: "clear"}
     tiles = []
     for index, rank in enumerate(layout):
         row, column = divmod(index, 6)
@@ -116,7 +117,7 @@ def render_board(languages):
                 rank = 1
             else:
                 continue
-        delay = 60 * column + 85 * (4 - row)
+        delay = 280 + 60 * column + 85 * (4 - row)
         movement = ""
         if len(languages) > 1:
             if index == 2:
@@ -126,7 +127,7 @@ def render_board(languages):
         tiles.append(f'''
     <g transform="translate({12 + 44 * column} {12 + 44 * row})">
       <g class="drop" style="animation-delay:{delay}ms">
-        <g{movement}><use href="#piece{rank}"/></g>
+        <g{movement}><use class="{after_match.get(index, "")}" href="#piece{rank}"/></g>
       </g>
     </g>''')
 
@@ -134,13 +135,20 @@ def render_board(languages):
     names = escape(", ".join(languages))
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="360" height="304" viewBox="0 0 282 238" role="img" aria-labelledby="title description">
   <title id="title">Stack Match</title>
-  <desc id="description">A six-column, five-row board with tiles for {names}. Three {winner} tiles match.</desc>
+  <desc id="description">Tiles for {names} drop into an empty board. Three {winner} tiles match and disappear, and the tiles above fall.</desc>
   <style>
     .surface {{ fill: #f6f8fa; stroke: #d1d9e0; }}
+    .slot {{ fill: #e9edf2; }}
     .drop {{ animation: drop .62s cubic-bezier(.24,.78,.27,1) both; }}
-    .swap-down {{ animation: swap-down .36s 1.28s ease-in-out both; }}
-    .swap-up {{ animation: swap-up .36s 1.28s ease-in-out both; }}
-    .match {{ animation: reveal .22s 1.66s both; }}
+    .swap-down {{ animation: swap-down .36s 1.61s ease-in-out both; }}
+    .swap-up {{ animation: swap-up .36s 1.61s ease-in-out both; }}
+    .match {{ animation: highlight .66s 1.98s both; }}
+    .clear {{
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: clear .34s 2.34s ease-in-out both;
+    }}
+    .settle {{ animation: settle .4s 2.68s cubic-bezier(.42,0,.8,1) both; }}
     @keyframes drop {{
       0% {{ transform: translateY(-228px); opacity: 0; }}
       15% {{ opacity: 1; }}
@@ -155,21 +163,39 @@ def render_board(languages):
       0% {{ transform: translateY(-44px); }}
       50% {{ transform: translate(12px, -22px); }}
     }}
-    @keyframes reveal {{ from {{ opacity: 0; }} }}
+    @keyframes highlight {{
+      0%, 100% {{ opacity: 0; }}
+      16%, 60% {{ opacity: 1; }}
+    }}
+    @keyframes clear {{
+      25% {{ transform: scale(1.1); opacity: 1; }}
+      100% {{ transform: scale(.2); opacity: 0; }}
+    }}
+    @keyframes settle {{
+      75% {{ transform: translateY(46px); }}
+      100% {{ transform: translateY(44px); }}
+    }}
     @media (prefers-color-scheme: dark) {{
       .surface {{ fill: #151b23; stroke: #3d444d; }}
+      .slot {{ fill: #212933; }}
     }}
     @media (prefers-reduced-motion: reduce) {{
-      .drop, .swap-down, .swap-up, .match {{ animation: none; }}
+      .drop, .swap-down, .swap-up, .match, .clear, .settle {{ animation: none; }}
+      .match, .clear {{ opacity: 0; }}
+      .settle {{ transform: translateY(44px); }}
     }}
   </style>
   <defs>{''.join(definitions)}
+    <pattern id="slots" x="12" y="12" width="44" height="44" patternUnits="userSpaceOnUse">
+      <rect class="slot" x="1" y="1" width="36" height="36" rx="8"/>
+    </pattern>
     <clipPath id="board"><rect x="6" y="6" width="270" height="226" rx="6"/></clipPath>
   </defs>
   <rect class="surface" x=".5" y=".5" width="281" height="237" rx="10"/>
-  <g clip-path="url(#board)">{''.join(tiles)}
+  <g clip-path="url(#board)">
+    <rect x="12" y="12" width="264" height="220" fill="url(#slots)"/>{''.join(tiles)}
     <rect class="match" x="55" y="55" width="128" height="40" rx="10"
-      fill="none" stroke="#2da44e" stroke-width="2"/>
+      fill="none" stroke="#2da44e" stroke-width="2.5"/>
   </g>
 </svg>
     '''.rstrip() + "\n"
@@ -192,7 +218,7 @@ def main():
     names = ", ".join(languages)
     readme = (
         "### Hey, I'm Abdullah\n\n"
-        f"[![Play Stack Match and choose a year range. Tiles: {names}](stack-match/overview.svg)]"
+        f"[![Watch a match clear, then click to play Stack Match. Tiles: {names}](stack-match/overview.svg?v=cascade)]"
         "(https://choudhry18.github.io/stack-match/)\n"
     )
     (root / "README.md").write_text(readme, encoding="utf-8")

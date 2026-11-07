@@ -1,12 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="304" viewBox="0 0 282 238" role="img" aria-labelledby="title description">
   <title id="title">Stack Match</title>
-  <desc id="description">A six-column, five-row board with tiles for JavaScript, Python, Haskell, Scala, C. Three JavaScript tiles match.</desc>
+  <desc id="description">Tiles for JavaScript, Python, Haskell, Scala, C drop into an empty board. Three JavaScript tiles match and disappear, and the tiles above fall.</desc>
   <style>
     .surface { fill: #f6f8fa; stroke: #d1d9e0; }
+    .slot { fill: #e9edf2; }
     .drop { animation: drop .62s cubic-bezier(.24,.78,.27,1) both; }
-    .swap-down { animation: swap-down .36s 1.28s ease-in-out both; }
-    .swap-up { animation: swap-up .36s 1.28s ease-in-out both; }
-    .match { animation: reveal .22s 1.66s both; }
+    .swap-down { animation: swap-down .36s 1.61s ease-in-out both; }
+    .swap-up { animation: swap-up .36s 1.61s ease-in-out both; }
+    .match { animation: highlight .66s 1.98s both; }
+    .clear {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: clear .34s 2.34s ease-in-out both;
+    }
+    .settle { animation: settle .4s 2.68s cubic-bezier(.42,0,.8,1) both; }
     @keyframes drop {
       0% { transform: translateY(-228px); opacity: 0; }
       15% { opacity: 1; }
@@ -21,12 +28,26 @@
       0% { transform: translateY(-44px); }
       50% { transform: translate(12px, -22px); }
     }
-    @keyframes reveal { from { opacity: 0; } }
+    @keyframes highlight {
+      0%, 100% { opacity: 0; }
+      16%, 60% { opacity: 1; }
+    }
+    @keyframes clear {
+      25% { transform: scale(1.1); opacity: 1; }
+      100% { transform: scale(.2); opacity: 0; }
+    }
+    @keyframes settle {
+      75% { transform: translateY(46px); }
+      100% { transform: translateY(44px); }
+    }
     @media (prefers-color-scheme: dark) {
       .surface { fill: #151b23; stroke: #3d444d; }
+      .slot { fill: #212933; }
     }
     @media (prefers-reduced-motion: reduce) {
-      .drop, .swap-down, .swap-up, .match { animation: none; }
+      .drop, .swap-down, .swap-up, .match, .clear, .settle { animation: none; }
+      .match, .clear { opacity: 0; }
+      .settle { transform: translateY(44px); }
     }
   </style>
   <defs>
@@ -75,161 +96,165 @@
       <path d="M9 5h20" stroke="#fff" stroke-opacity=".65" stroke-linecap="round"/>
       <ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 128 128" x="7" y="7" width="24" height="24"><ns0:path fill="#659AD3" d="M115.4 30.7L67.1 2.9c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.4 1 3.5l106.8-62c-.6-1.2-1.5-2.1-2.4-2.7z" /><ns0:path fill="#03599C" d="M10.7 95.3c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4V36.1c0-.9-.1-1.9-.6-2.8l-106.6 62z" /><ns0:path fill="#fff" d="M85.3 76.1C81.1 83.5 73.1 88.5 64 88.5c-13.5 0-24.5-11-24.5-24.5s11-24.5 24.5-24.5c9.1 0 17.1 5 21.3 12.5l13-7.5c-6.8-11.9-19.6-20-34.3-20-21.8 0-39.5 17.7-39.5 39.5s17.7 39.5 39.5 39.5c14.6 0 27.4-8 34.2-19.8l-12.9-7.6z" /></ns0:svg>
     </g>
+    <pattern id="slots" x="12" y="12" width="44" height="44" patternUnits="userSpaceOnUse">
+      <rect class="slot" x="1" y="1" width="36" height="36" rx="8"/>
+    </pattern>
     <clipPath id="board"><rect x="6" y="6" width="270" height="226" rx="6"/></clipPath>
   </defs>
   <rect class="surface" x=".5" y=".5" width="281" height="237" rx="10"/>
   <g clip-path="url(#board)">
+    <rect x="12" y="12" width="264" height="220" fill="url(#slots)"/>
     <g transform="translate(12 12)">
-      <g class="drop" style="animation-delay:340ms">
-        <g><use href="#piece2"/></g>
+      <g class="drop" style="animation-delay:620ms">
+        <g><use class="" href="#piece2"/></g>
       </g>
     </g>
     <g transform="translate(56 12)">
-      <g class="drop" style="animation-delay:400ms">
-        <g><use href="#piece1"/></g>
+      <g class="drop" style="animation-delay:680ms">
+        <g><use class="settle" href="#piece1"/></g>
       </g>
     </g>
     <g transform="translate(100 12)">
-      <g class="drop" style="animation-delay:460ms">
-        <g class="swap-down"><use href="#piece2"/></g>
+      <g class="drop" style="animation-delay:740ms">
+        <g class="swap-down"><use class="settle" href="#piece2"/></g>
       </g>
     </g>
     <g transform="translate(144 12)">
-      <g class="drop" style="animation-delay:520ms">
-        <g><use href="#piece0"/></g>
+      <g class="drop" style="animation-delay:800ms">
+        <g><use class="settle" href="#piece0"/></g>
       </g>
     </g>
     <g transform="translate(188 12)">
-      <g class="drop" style="animation-delay:580ms">
-        <g><use href="#piece3"/></g>
+      <g class="drop" style="animation-delay:860ms">
+        <g><use class="" href="#piece3"/></g>
       </g>
     </g>
     <g transform="translate(232 12)">
-      <g class="drop" style="animation-delay:640ms">
-        <g><use href="#piece1"/></g>
+      <g class="drop" style="animation-delay:920ms">
+        <g><use class="" href="#piece1"/></g>
       </g>
     </g>
     <g transform="translate(12 56)">
-      <g class="drop" style="animation-delay:255ms">
-        <g><use href="#piece1"/></g>
+      <g class="drop" style="animation-delay:535ms">
+        <g><use class="" href="#piece1"/></g>
       </g>
     </g>
     <g transform="translate(56 56)">
-      <g class="drop" style="animation-delay:315ms">
-        <g><use href="#piece0"/></g>
+      <g class="drop" style="animation-delay:595ms">
+        <g><use class="clear" href="#piece0"/></g>
       </g>
     </g>
     <g transform="translate(100 56)">
-      <g class="drop" style="animation-delay:375ms">
-        <g class="swap-up"><use href="#piece0"/></g>
+      <g class="drop" style="animation-delay:655ms">
+        <g class="swap-up"><use class="clear" href="#piece0"/></g>
       </g>
     </g>
     <g transform="translate(144 56)">
-      <g class="drop" style="animation-delay:435ms">
-        <g><use href="#piece0"/></g>
+      <g class="drop" style="animation-delay:715ms">
+        <g><use class="clear" href="#piece0"/></g>
       </g>
     </g>
     <g transform="translate(188 56)">
-      <g class="drop" style="animation-delay:495ms">
-        <g><use href="#piece2"/></g>
+      <g class="drop" style="animation-delay:775ms">
+        <g><use class="" href="#piece2"/></g>
       </g>
     </g>
     <g transform="translate(232 56)">
-      <g class="drop" style="animation-delay:555ms">
-        <g><use href="#piece4"/></g>
+      <g class="drop" style="animation-delay:835ms">
+        <g><use class="" href="#piece4"/></g>
       </g>
     </g>
     <g transform="translate(12 100)">
-      <g class="drop" style="animation-delay:170ms">
-        <g><use href="#piece0"/></g>
+      <g class="drop" style="animation-delay:450ms">
+        <g><use class="" href="#piece0"/></g>
       </g>
     </g>
     <g transform="translate(56 100)">
-      <g class="drop" style="animation-delay:230ms">
-        <g><use href="#piece2"/></g>
+      <g class="drop" style="animation-delay:510ms">
+        <g><use class="" href="#piece2"/></g>
       </g>
     </g>
     <g transform="translate(100 100)">
-      <g class="drop" style="animation-delay:290ms">
-        <g><use href="#piece1"/></g>
+      <g class="drop" style="animation-delay:570ms">
+        <g><use class="" href="#piece1"/></g>
       </g>
     </g>
     <g transform="translate(144 100)">
-      <g class="drop" style="animation-delay:350ms">
-        <g><use href="#piece2"/></g>
+      <g class="drop" style="animation-delay:630ms">
+        <g><use class="" href="#piece2"/></g>
       </g>
     </g>
     <g transform="translate(188 100)">
-      <g class="drop" style="animation-delay:410ms">
-        <g><use href="#piece1"/></g>
+      <g class="drop" style="animation-delay:690ms">
+        <g><use class="" href="#piece1"/></g>
       </g>
     </g>
     <g transform="translate(232 100)">
-      <g class="drop" style="animation-delay:470ms">
-        <g><use href="#piece0"/></g>
+      <g class="drop" style="animation-delay:750ms">
+        <g><use class="" href="#piece0"/></g>
       </g>
     </g>
     <g transform="translate(12 144)">
-      <g class="drop" style="animation-delay:85ms">
-        <g><use href="#piece3"/></g>
+      <g class="drop" style="animation-delay:365ms">
+        <g><use class="" href="#piece3"/></g>
       </g>
     </g>
     <g transform="translate(56 144)">
-      <g class="drop" style="animation-delay:145ms">
-        <g><use href="#piece4"/></g>
+      <g class="drop" style="animation-delay:425ms">
+        <g><use class="" href="#piece4"/></g>
       </g>
     </g>
     <g transform="translate(100 144)">
-      <g class="drop" style="animation-delay:205ms">
-        <g><use href="#piece0"/></g>
+      <g class="drop" style="animation-delay:485ms">
+        <g><use class="" href="#piece0"/></g>
       </g>
     </g>
     <g transform="translate(144 144)">
-      <g class="drop" style="animation-delay:265ms">
-        <g><use href="#piece3"/></g>
+      <g class="drop" style="animation-delay:545ms">
+        <g><use class="" href="#piece3"/></g>
       </g>
     </g>
     <g transform="translate(188 144)">
-      <g class="drop" style="animation-delay:325ms">
-        <g><use href="#piece4"/></g>
+      <g class="drop" style="animation-delay:605ms">
+        <g><use class="" href="#piece4"/></g>
       </g>
     </g>
     <g transform="translate(232 144)">
-      <g class="drop" style="animation-delay:385ms">
-        <g><use href="#piece2"/></g>
+      <g class="drop" style="animation-delay:665ms">
+        <g><use class="" href="#piece2"/></g>
       </g>
     </g>
     <g transform="translate(12 188)">
-      <g class="drop" style="animation-delay:0ms">
-        <g><use href="#piece2"/></g>
+      <g class="drop" style="animation-delay:280ms">
+        <g><use class="" href="#piece2"/></g>
       </g>
     </g>
     <g transform="translate(56 188)">
-      <g class="drop" style="animation-delay:60ms">
-        <g><use href="#piece0"/></g>
+      <g class="drop" style="animation-delay:340ms">
+        <g><use class="" href="#piece0"/></g>
       </g>
     </g>
     <g transform="translate(100 188)">
-      <g class="drop" style="animation-delay:120ms">
-        <g><use href="#piece4"/></g>
+      <g class="drop" style="animation-delay:400ms">
+        <g><use class="" href="#piece4"/></g>
       </g>
     </g>
     <g transform="translate(144 188)">
-      <g class="drop" style="animation-delay:180ms">
-        <g><use href="#piece2"/></g>
+      <g class="drop" style="animation-delay:460ms">
+        <g><use class="" href="#piece2"/></g>
       </g>
     </g>
     <g transform="translate(188 188)">
-      <g class="drop" style="animation-delay:240ms">
-        <g><use href="#piece0"/></g>
+      <g class="drop" style="animation-delay:520ms">
+        <g><use class="" href="#piece0"/></g>
       </g>
     </g>
     <g transform="translate(232 188)">
-      <g class="drop" style="animation-delay:300ms">
-        <g><use href="#piece3"/></g>
+      <g class="drop" style="animation-delay:580ms">
+        <g><use class="" href="#piece3"/></g>
       </g>
     </g>
     <rect class="match" x="55" y="55" width="128" height="40" rx="10"
-      fill="none" stroke="#2da44e" stroke-width="2"/>
+      fill="none" stroke="#2da44e" stroke-width="2.5"/>
   </g>
 </svg>
