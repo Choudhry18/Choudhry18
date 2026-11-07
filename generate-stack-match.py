@@ -16,7 +16,7 @@ def query_user(fields):
     return json.loads(response)["data"]["user"]
 
 
-def yearly_languages():
+def yearly_activity():
     now = datetime.now(timezone.utc)
     years = query_user("contributionsCollection { contributionYears }")["contributionsCollection"]["contributionYears"]
     fields = []
@@ -44,7 +44,7 @@ def yearly_languages():
                 # The contribution records are grouped by repository and day.
                 activity[language["name"]] += entry["contributions"]["totalCount"]
         if activity:
-            yield int(alias[1:]), sorted(activity, key=lambda name: (-activity[name], name))[:5]
+            yield int(alias[1:]), activity
 
 
 icons = {
@@ -170,29 +170,26 @@ def render_board(languages):
 
 
 def main():
-    years = dict(yearly_languages())
-    if not years:
-        raise SystemExit("No public language activity returned. Keeping the existing boards.")
+    activity = Counter()
+    for _, year_activity in yearly_activity():
+        activity.update(year_activity)
+    if not activity:
+        raise SystemExit("No public language activity returned. Keeping the existing board.")
 
+    languages = sorted(activity, key=lambda name: (-activity[name], name))[:5]
     root = Path(__file__).parent
     folder = root / "stack-match"
-    boards = {year: render_board(years[year]) for year in sorted(years, reverse=True)}
     folder.mkdir(exist_ok=True)
-    readme = ["### Hey, I'm Abdullah"]
-    for index, (year, svg) in enumerate(boards.items()):
-        (folder / f"{year}.svg").write_text(svg, encoding="utf-8")
-        expanded = " open" if index == 0 else ""
-        names = escape(", ".join(years[year]), quote=True)
-        readme.append(
-            f'<details name="stack-year"{expanded}>\n'
-            f"<summary>{year}</summary>\n\n"
-            f'<img src="stack-match/{year}.svg" width="282" height="150" alt="{year} stack: {names}">\n\n'
-            "</details>"
-        )
+    (folder / "overview.svg").write_text(render_board(languages), encoding="utf-8")
     for existing in folder.glob("[0-9][0-9][0-9][0-9].svg"):
-        if int(existing.stem) not in boards:
-            existing.unlink()
-    (root / "README.md").write_text("\n\n".join(readme) + "\n", encoding="utf-8")
+        existing.unlink()
+    names = ", ".join(languages)
+    readme = (
+        "### Hey, I'm Abdullah\n\n"
+        f"[![Play Stack Match and choose a year range. Tiles: {names}](stack-match/overview.svg)]"
+        "(https://choudhry18.github.io/stack-match/)\n"
+    )
+    (root / "README.md").write_text(readme, encoding="utf-8")
 
 
 if __name__ == "__main__":
