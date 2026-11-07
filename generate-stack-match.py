@@ -92,7 +92,7 @@ def render_board(languages):
       <stop stop-color="{top}"/><stop offset="1" stop-color="{bottom}"/>
     </linearGradient>
     <g id="piece{index}">
-      <rect x="1" y="1" width="36" height="36" rx="{[9, 14, 7, 12, 16][index]}"
+      <rect x="1" y="1" width="36" height="36" rx="{[9, 14, 7, 12, 16, 18][index]}"
         fill="url(#color{index})" stroke="#24292f" stroke-opacity=".25"/>
       <path d="M9 5h20" stroke="#fff" stroke-opacity=".65" stroke-linecap="round"/>
       {mark}
@@ -100,9 +100,9 @@ def render_board(languages):
 
     # Arrange the board immediately after the swap, before the match clears.
     layout = (
-        2, 1, 2, 0, 3, 1,
+        2, 5, 2, 0, 3, 5,
         1, 0, 0, 0, 2, 4,
-        0, 2, 1, 2, 1, 0,
+        0, 2, 1, 2, 5, 0,
         3, 4, 0, 3, 4, 2,
         2, 0, 4, 2, 0, 3,
     )
@@ -209,6 +209,8 @@ def main():
         raise SystemExit("No public language activity returned. Keeping the existing board.")
 
     languages = sorted(activity, key=lambda name: (-activity[name], name))[:5]
+    if "Rust" in activity and "Rust" not in languages:
+        languages.append("Rust")
     root = Path(__file__).parent
     folder = root / "stack-match"
     folder.mkdir(exist_ok=True)
@@ -217,8 +219,7 @@ def main():
         existing.unlink()
     names = ", ".join(languages)
     readme = (
-        "### Hey, I'm Abdullah\n\n"
-        f"[![Watch a match clear, then click to play Stack Match. Tiles: {names}](stack-match/overview.svg?v=cascade)]"
+        f"[![Watch a match clear, then click to play Stack Match. Tiles: {names}](stack-match/overview.svg?v=cascade-rust)]"
         "(https://choudhry18.github.io/stack-match/)\n"
     )
     (root / "README.md").write_text(readme, encoding="utf-8")
