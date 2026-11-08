@@ -2,7 +2,7 @@ name: Refresh Stack Match
 
 on:
   schedule:
-    - cron: '19 16 * * *'
+    - cron: '19 16 1 * *'
   workflow_dispatch:
 
 permissions:
